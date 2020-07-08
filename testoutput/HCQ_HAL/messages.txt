@@ -1,0 +1,22 @@
+Action potential prediction simulation recorded the following notes:
+ * At a concentration of 3.16228uM: possible alternans detected, APD90s = 1451.1, 810.405 ms
+ * At a concentration of 3.16228uM: possible alternans detected, APD90s = 1384.91, 844.236 ms
+ * At a concentration of 3.16228uM: possible alternans detected, APD90s = 1362.87, 813.561 ms
+ * At a concentration of 5.62341uM: only one action potential was recorded (2546.14 ms) for two paces of 2000ms.
+ * At a concentration of 5.62341uM: only one action potential was recorded (2538 ms) for two paces of 2000ms.
+ * At a concentration of 5.62341uM: only one action potential was recorded (2533.26 ms) for two paces of 2000ms.
+ * At a concentration of 5.62341uM: only one action potential was recorded (2485.84 ms) for two paces of 2000ms.
+ * At a concentration of 5.62341uM: possible alternans detected, APD90s = 1363.68, 805.165 ms
+ * At a concentration of 10uM: only one action potential was recorded (2609.68 ms) for two paces of 2000ms.
+ * At a concentration of 10uM: only one action potential was recorded (2698.37 ms) for two paces of 2000ms.
+ * At a concentration of 10uM: possible alternans detected, APD90s = 1539.44, 919.483 ms
+ * At a concentration of 10uM: only one action potential was recorded (2616.46 ms) for two paces of 2000ms.
+ * At a concentration of 10uM: only one action potential was recorded (2583.94 ms) for two paces of 2000ms.
+ * At a concentration of 10uM: possible alternans detected, APD90s = 1500.28, 832.95 ms
+ * At a concentration of 10uM: only one action potential was recorded (2564.05 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: only one action potential was recorded (2713.68 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: only one action potential was recorded (2834 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: only one action potential was recorded (2818.51 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: only one action potential was recorded (2703.11 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: only one action potential was recorded (2642.39 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: only one action potential was recorded (2630.49 ms) for two paces of 2000ms.

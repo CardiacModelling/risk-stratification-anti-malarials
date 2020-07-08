@@ -1,0 +1,11 @@
+Initialising..
+0% completed
+14% completed
+28% completed
+42% completed
+57% completed
+71% completed
+85% completed
+Finalising..
+100% completed
+..done!

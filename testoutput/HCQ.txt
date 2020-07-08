@@ -1,0 +1,4764 @@
+$CHASTE_TEST_OUTPUT is currently set to  /home/appredict/apps/ApPredict/testoutput.
+Copyright (c) 2005-2020, University of Oxford.
+All rights reserved.
+
+University of Oxford means the Chancellor, Masters and Scholars of the
+University of Oxford, having an administrative office at Wellington
+Square, Oxford OX1 2JD, UK.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+ * Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of the University of Oxford nor the names of its
+   contributors may be used to endorse or promote products derived from this
+   software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+This version of Chaste was compiled on:
+Mon, 15 Jun 2020 09:25:37 +0000 by Linux 7c48ad816ede 4.15.0-55-generic #60-Ubuntu SMP Tue Jul 2 18:22:20 UTC 2019 x86_64 (uname)
+from revision number 9c205f0 with build type GccOpt, shared libraries.
+
+# 34 arguments supplied.
+My ideal lookup table would be ohara_rudy_cipa_v1_2017_3d_hERG_IKs_ICaL_0.5Hz_generator
+Loading lookup table from binary archive into memory, this can take a few seconds... loaded in 0.203598 secs.
+Lookup table is available for generation of credible intervals.
+* na: no drug effect
+* cal IC50s = 26.9153  uM, Hills = 1.0 (default), Saturation level = 0% (default).
+* herg IC50s = 5.62341  uM, Hills = 1.0 (default), Saturation level = 0% (default).
+* iks IC50s = 9.33254  uM, Hills = 1.0 (default), Saturation level = 0% (default).
+* ik1: no drug effect
+* ito: no drug effect
+* nal: no drug effect
+* max free plasma concentration = 100 uM
+* min free plasma concentration = 0 uM
+* number of plasma concentrations = 22
+Inferring the spread of dose-response parameters from your 'cal' data (this can take a moment with large datasets)... done!
+Inferring the spread of dose-response parameters from your 'herg' data (this can take a moment with large datasets)... done!
+Inferring the spread of dose-response parameters from your 'iks' data (this can take a moment with large datasets)... done!
+Drug Conc = 0 uM
+g_na factor = 1
+g_cal factor = 1
+g_herg factor = 1
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 289.812
+Steady state detected after 80 paces.
+Last 2 AP duration(s) = 289.807,	289.807,	
+0.5Hz Upstroke velocity = 227.582, Peak mV = 41.9181, APD50 = 236.936, APD90 = 289.807, percent change APD90 = 0,0,0
+QNet at 0uM: for lower, median and upper percentiles: 0.0690176,0.0690176,0.0690176
+Drug Conc = 0.001 uM
+g_na factor = 1
+g_cal factor = 0.999963
+g_herg factor = 0.999822
+g_iks factor = 0.999893
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 289.838
+Steady state detected after 68 paces.
+Last 2 AP duration(s) = 289.838,	289.838,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.581, Peak mV = 41.9181, APD50 = 236.961, APD90 = 289.838, percent change APD90 = 0.00371624,0.0108239,0.0363112
+QNet at 0.001uM: for lower, median and upper percentiles: 0.0689917,0.0690094,0.0690163
+Drug Conc = 0.00177828 uM
+g_na factor = 1
+g_cal factor = 0.999934
+g_herg factor = 0.999684
+g_iks factor = 0.999809
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 289.863
+Steady state detected after 106 paces.
+Last 2 AP duration(s) = 289.863,	289.863,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.583, Peak mV = 41.918, APD50 = 236.98, APD90 = 289.863, percent change APD90 = 0.00667515,0.0193128,0.0646234
+QNet at 0.00177828uM: for lower, median and upper percentiles: 0.0689724,0.0690039,0.0690161
+Drug Conc = 0.00316228 uM
+g_na factor = 1
+g_cal factor = 0.999883
+g_herg factor = 0.999438
+g_iks factor = 0.999661
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 289.906
+Steady state detected after 144 paces.
+Last 2 AP duration(s) = 289.907,	289.907,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.583, Peak mV = 41.918, APD50 = 237.015, APD90 = 289.907, percent change APD90 = 0.011936,0.0344083,0.114923
+QNet at 0.00316228uM: for lower, median and upper percentiles: 0.0689381,0.0689941,0.0690158
+Drug Conc = 0.00562341 uM
+g_na factor = 1
+g_cal factor = 0.999791
+g_herg factor = 0.999001
+g_iks factor = 0.999398
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 289.984
+Steady state detected after 192 paces.
+Last 2 AP duration(s) = 289.984,	289.984,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.581, Peak mV = 41.9179, APD50 = 237.077, APD90 = 289.984, percent change APD90 = 0.0212969,0.061225,0.204299
+QNet at 0.00562341uM: for lower, median and upper percentiles: 0.0688771,0.0689767,0.0690153
+Drug Conc = 0.01 uM
+g_na factor = 1
+g_cal factor = 0.999629
+g_herg factor = 0.998225
+g_iks factor = 0.99893
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 290.122
+Steady state detected after 228 paces.
+Last 2 AP duration(s) = 290.123,	290.123,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.582, Peak mV = 41.9178, APD50 = 237.186, APD90 = 290.123, percent change APD90 = 0.0379597,0.108912,0.362906
+QNet at 0.01uM: for lower, median and upper percentiles: 0.0687691,0.0689457,0.0690142
+Drug Conc = 0.0177828 uM
+g_na factor = 1
+g_cal factor = 0.99934
+g_herg factor = 0.996848
+g_iks factor = 0.998098
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 290.366
+Steady state detected after 272 paces.
+Last 2 AP duration(s) = 290.368,	290.368,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.58, Peak mV = 41.9175, APD50 = 237.38, APD90 = 290.368, percent change APD90 = 0.0676465,0.193628,0.644061
+QNet at 0.0177828uM: for lower, median and upper percentiles: 0.0685776,0.0688906,0.0690124
+Drug Conc = 0.0316228 uM
+g_na factor = 1
+g_cal factor = 0.998826
+g_herg factor = 0.994408
+g_iks factor = 0.996623
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 290.801
+Steady state detected after 328 paces.
+Last 2 AP duration(s) = 290.804,	290.804,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.579, Peak mV = 41.917, APD50 = 237.725, APD90 = 290.804, percent change APD90 = 0.120276,0.344082,1.14106
+QNet at 0.0316228uM: for lower, median and upper percentiles: 0.0682399,0.068793,0.0690091
+Drug Conc = 0.0562341 uM
+g_na factor = 1
+g_cal factor = 0.997915
+g_herg factor = 0.990099
+g_iks factor = 0.99401
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 291.572
+Steady state detected after 376 paces.
+Last 2 AP duration(s) = 291.577,	291.577,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.572, Peak mV = 41.9161, APD50 = 238.337, APD90 = 291.577, percent change APD90 = 0.213745,0.610926,2.01585
+QNet at 0.0562341uM: for lower, median and upper percentiles: 0.0676472,0.0686201,0.0690031
+Drug Conc = 0.1 uM
+g_na factor = 1
+g_cal factor = 0.996298
+g_herg factor = 0.982528
+g_iks factor = 0.989398
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 292.937
+Steady state detected after 416 paces.
+Last 2 AP duration(s) = 292.947,	292.947,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.565, Peak mV = 41.9146, APD50 = 239.421, APD90 = 292.947, percent change APD90 = 0.379645,1.0834,3.54369
+QNet at 0.1uM: for lower, median and upper percentiles: 0.0666179,0.0683146,0.0689919
+Drug Conc = 0.177828 uM
+g_na factor = 1
+g_cal factor = 0.993436
+g_herg factor = 0.969347
+g_iks factor = 0.981302
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 295.346
+Steady state detected after 472 paces.
+Last 2 AP duration(s) = 295.363,	295.363,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.556, Peak mV = 41.9117, APD50 = 241.331, APD90 = 295.363, percent change APD90 = 0.673738,1.9171,6.17746
+QNet at 0.177828uM: for lower, median and upper percentiles: 0.0648607,0.0677782,0.0689704
+Drug Conc = 0.316228 uM
+g_na factor = 1
+g_cal factor = 0.988387
+g_herg factor = 0.94676
+g_iks factor = 0.967226
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 299.571
+Steady state detected after 514 paces.
+Last 2 AP duration(s) = 299.602,	299.602,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.532, Peak mV = 41.9064, APD50 = 244.678, APD90 = 299.602, percent change APD90 = 1.19385,3.37972,10.6224
+QNet at 0.316228uM: for lower, median and upper percentiles: 0.0619457,0.0668448,0.0689269
+Drug Conc = 0.562341 uM
+g_na factor = 1
+g_cal factor = 0.979535
+g_herg factor = 0.909091
+g_iks factor = 0.943168
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 306.909
+Steady state detected after 568 paces.
+Last 2 AP duration(s) = 306.967,	306.967,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.496, Peak mV = 41.8965, APD50 = 250.483, APD90 = 306.967, percent change APD90 = 2.10992,5.92111,17.884
+QNet at 0.562341uM: for lower, median and upper percentiles: 0.0572931,0.0652461,0.0688339
+Drug Conc = 1 uM
+g_na factor = 1
+g_cal factor = 0.964177
+g_herg factor = 0.84902
+g_iks factor = 0.903218
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 319.455
+Steady state detected after 610 paces.
+Last 2 AP duration(s) = 319.566,	319.566,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.435, Peak mV = 41.8776, APD50 = 260.385, APD90 = 319.566, percent change APD90 = 3.71254,10.2685,29.4191
+QNet at 1uM: for lower, median and upper percentiles: 0.0504551,0.0625785,0.0685896
+Drug Conc = 1.77828 uM
+g_na factor = 1
+g_cal factor = 0.938025
+g_herg factor = 0.759747
+g_iks factor = 0.839951
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 340.389
+Steady state detected after 658 paces.
+Last 2 AP duration(s) = 340.617,	340.617,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.338, Peak mV = 41.8395, APD50 = 276.866, APD90 = 340.617, percent change APD90 = 6.48636,17.5323,47.5405
+QNet at 1.77828uM: for lower, median and upper percentiles: 0.0412655,0.0583057,0.0677278
+Drug Conc = 3.16228 uM
+g_na factor = 1
+g_cal factor = 0.894863
+g_herg factor = 0.640065
+g_iks factor = 0.746913
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 374.178
+Steady state detected after 698 paces.
+Last 2 AP duration(s) = 374.676,	374.676,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.221, Peak mV = 41.7618, APD50 = 303.435, APD90 = 374.676, percent change APD90 = 11.2109,29.2847,71.3354
+QNet at 3.16228uM: for lower, median and upper percentiles: 0.0305771,0.051849,0.0655993
+Drug Conc = 5.62341 uM
+g_na factor = 1
+g_cal factor = 0.827178
+g_herg factor = 0.5
+g_iks factor = 0.624002
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 426.541
+Steady state detected after 746 paces.
+Last 2 AP duration(s) = 427.641,	427.641,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.076, Peak mV = 41.6071, APD50 = 344.763, APD90 = 427.641, percent change APD90 = 19.0828,47.5607,105.547
+QNet at 5.62341uM: for lower, median and upper percentiles: 0.0177623,0.0427782,0.0615075
+Drug Conc = 10 uM
+g_na factor = 1
+g_cal factor = 0.72911
+g_herg factor = 0.359935
+g_iks factor = 0.482737
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 504.055
+Steady state detected after 772 paces.
+Last 2 AP duration(s) = 506.263,	506.263,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 226.956, Peak mV = 41.3293, APD50 = 406.8, APD90 = 506.263, percent change APD90 = 32.3782,74.6897,158.202
+QNet at 10uM: for lower, median and upper percentiles: 0.000560905,0.0309725,0.0554835
+Drug Conc = 17.7828 uM
+g_na factor = 1
+g_cal factor = 0.602158
+g_herg factor = 0.240253
+g_iks factor = 0.344179
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 612.246
+Steady state detected after 800 paces.
+Last 2 AP duration(s) = 616.217,	616.217,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 226.847, Peak mV = 40.939, APD50 = 496.009, APD90 = 616.217, percent change APD90 = 52.491,112.63,229.222
+QNet at 17.7828uM: for lower, median and upper percentiles: -0.0196473,0.0166461,0.0455445
+Drug Conc = 31.6228 uM
+g_na factor = 1
+g_cal factor = 0.459792
+g_herg factor = 0.15098
+g_iks factor = 0.227871
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 750.408
+Steady state detected after 824 paces.
+Last 2 AP duration(s) = 757.99,	757.99,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Sample 19/200
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 128/200
+Sample 129/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 226.671, Peak mV = 40.5492, APD50 = 615.932, APD90 = 757.99, percent change APD90 = 82.1039,161.55,804.823
+QNet at 31.6228uM: for lower, median and upper percentiles: -1.79769e+308,0.000411228,0.0378603
+Drug Conc = 56.2341 uM
+g_na factor = 1
+g_cal factor = 0.323698
+g_herg factor = 0.0909091
+g_iks factor = 0.142337
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 904.716
+Steady state detected after 850 paces.
+Last 2 AP duration(s) = 920.278,	920.278,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 15/200
+Sample 16/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 17/200
+Sample 18/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 19/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Sample 30/200
+Sample 31/200
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 135/200
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 151/200
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 166/200
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 200/200
+done.
+0.5Hz Upstroke velocity = 227.752, Peak mV = 40.3156, APD50 = 758.441, APD90 = 920.278, percent change APD90 = 119.937,217.549,847.568
+QNet at 56.2341uM: for lower, median and upper percentiles: -1.79769e+308,-0.0164081,0.0311666
+Drug Conc = 100 uM
+g_na factor = 1
+g_cal factor = 0.212073
+g_herg factor = 0.0532402
+g_iks factor = 0.0853592
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 1044.05
+Steady state detected after 894 paces.
+Last 2 AP duration(s) = 1070.18,	1070.18,	
+Calculating confidence intervals using brute force sampling...
+Sample 1/200
+Sample 2/200
+Sample 3/200
+Sample 4/200
+Sample 5/200
+Sample 6/200
+Sample 7/200
+Sample 8/200
+Sample 9/200
+Sample 10/200
+Sample 11/200
+Sample 12/200
+Sample 13/200
+Sample 14/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 15/200
+Sample 16/200
+Sample 17/200
+Sample 18/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 19/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 20/200
+Sample 21/200
+Sample 22/200
+Sample 23/200
+Sample 24/200
+Sample 25/200
+Sample 26/200
+Sample 27/200
+Sample 28/200
+Sample 29/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 30/200
+Sample 31/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 32/200
+Sample 33/200
+Sample 34/200
+Sample 35/200
+Sample 36/200
+Sample 37/200
+Sample 38/200
+Sample 39/200
+Sample 40/200
+Sample 41/200
+Sample 42/200
+Sample 43/200
+Sample 44/200
+Sample 45/200
+Sample 46/200
+Sample 47/200
+Sample 48/200
+Sample 49/200
+Sample 50/200
+Sample 51/200
+Sample 52/200
+Sample 53/200
+Sample 54/200
+Sample 55/200
+Sample 56/200
+Sample 57/200
+Sample 58/200
+Sample 59/200
+Sample 60/200
+Sample 61/200
+Sample 62/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 63/200
+Sample 64/200
+Sample 65/200
+Sample 66/200
+Sample 67/200
+Sample 68/200
+Sample 69/200
+Sample 70/200
+Sample 71/200
+Sample 72/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 73/200
+Sample 74/200
+Sample 75/200
+Sample 76/200
+Sample 77/200
+Sample 78/200
+Sample 79/200
+Sample 80/200
+Sample 81/200
+Sample 82/200
+Sample 83/200
+Sample 84/200
+Sample 85/200
+Sample 86/200
+Sample 87/200
+Sample 88/200
+Sample 89/200
+Sample 90/200
+Sample 91/200
+Sample 92/200
+Sample 93/200
+Sample 94/200
+Sample 95/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 96/200
+Sample 97/200
+Sample 98/200
+Sample 99/200
+Sample 100/200
+Sample 101/200
+Sample 102/200
+Sample 103/200
+Sample 104/200
+Sample 105/200
+Sample 106/200
+Sample 107/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 108/200
+Sample 109/200
+Sample 110/200
+Sample 111/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 112/200
+Sample 113/200
+Sample 114/200
+Sample 115/200
+Sample 116/200
+Sample 117/200
+Sample 118/200
+Sample 119/200
+Sample 120/200
+Sample 121/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 122/200
+Sample 123/200
+Sample 124/200
+Sample 125/200
+Sample 126/200
+Sample 127/200
+Sample 128/200
+Sample 129/200
+Sample 130/200
+Sample 131/200
+Sample 132/200
+Sample 133/200
+Sample 134/200
+Sample 135/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 136/200
+Sample 137/200
+Sample 138/200
+Sample 139/200
+Sample 140/200
+Sample 141/200
+Sample 142/200
+Sample 143/200
+Sample 144/200
+Sample 145/200
+Sample 146/200
+Sample 147/200
+Sample 148/200
+Sample 149/200
+Sample 150/200
+Sample 151/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 152/200
+Sample 153/200
+Sample 154/200
+Sample 155/200
+Sample 156/200
+Sample 157/200
+Sample 158/200
+Sample 159/200
+Sample 160/200
+Sample 161/200
+Sample 162/200
+Sample 163/200
+Sample 164/200
+Sample 165/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 166/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 167/200
+Sample 168/200
+Sample 169/200
+Sample 170/200
+Sample 171/200
+Sample 172/200
+Sample 173/200
+Sample 174/200
+Sample 175/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 176/200
+Sample 177/200
+Sample 178/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 179/200
+Sample 180/200
+Sample 181/200
+Sample 182/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 183/200
+Sample 184/200
+Sample 185/200
+Sample 186/200
+Sample 187/200
+Sample 188/200
+Sample 189/200
+Sample 190/200
+Sample 191/200
+Sample 192/200
+Sample 193/200
+Sample 194/200
+Sample 195/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+Sample 196/200
+Sample 197/200
+Sample 198/200
+Sample 199/200
+Sample 200/200
+Repolarisation Failure, logging -DBL_MAX for the qNet calculation
+done.
+0.5Hz Upstroke velocity = 230.818, Peak mV = 40.2511, APD50 = 891.511, APD90 = 1070.18, percent change APD90 = 161.171,269.275,875.443
+QNet at 100uM: for lower, median and upper percentiles: -1.79769e+308,-0.0312411,0.014833
+Chaste warning: in file projects/ApPredict/src/lookup/LookupTableLoader.cpp at line 209: Could not remove ascii lookup table archive, error was: 
+Chaste error: global/src/FileFinder.cpp:382: Cannot remove location '/home/appredict/apps/ApPredict/ohara_rudy_cipa_v1_2017_3d_hERG_IKs_ICaL_0.5Hz_generator.arch' as it is not located within the Chaste test output folder (/home/appredict/apps/ApPredict/testoutput/), the Chaste source folder (/home/appredict/build/Chaste/) or the Chaste build folder (/home/appredict/build/Chaste/).
+Simulations continued anyway.
+Chaste warning: in file projects/ApPredict/src/single_cell/ApPredictMethods.cpp at line 1662: ohara_rudy_cipa_v1_2017 does not have 'membrane_fast_transient_outward_current_conductance' labelled, please tag it in the CellML file if it is present.
+Chaste warning: in file projects/ApPredict/src/single_cell/ApPredictMethods.cpp at line 1671: ohara_rudy_cipa_v1_2017 does not have 'membrane_fast_transient_outward_current_conductance' labelled, using combined Ito (fast and slow) instead...
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 96 paces.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 17.7828uM: possible alternans detected, APD90s = 954.109, 1373.87 ms
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD30 changed from 3.51453 to -2.37847 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 17.7828uM: only one action potential was recorded (2640.7 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 17.7828uM: possible alternans detected, APD90s = 1491.32, 918.748 ms
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD30 changed from 3.20084 to -6.02257 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 17.7828uM: only one action potential was recorded (2672.57 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 17.7828uM: possible alternans detected, APD90s = 1725.75, 914.508 ms
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: possible alternans detected, APD90s = 1871.78, 959.424 ms
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: possible alternans detected, APD90s = 1845.83, 900.005 ms
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2555.8 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2602.96 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2689.88 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: possible alternans detected, APD90s = 1469.61, 920.151 ms
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: possible alternans detected, APD90s = 1623.15, 884.627 ms
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD30 changed from 2.87087 to -4.97009 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD30 changed from 17.1058 to -5.70137 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD90 changed from -6.84942 to -17.3548 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2622.24 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2597.86 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2733.57 ms) for two paces of 2000ms.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: possible alternans detected, APD90s = 1603.1, 934.051 ms
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2640.39 ms) for two paces of 2000ms.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 31.6228uM: only one action potential was recorded (2941.4 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2674.47 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2642.59 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2705.8 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2981.77 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2758.62 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: possible alternans detected, APD90s = 1647.03, 905.88 ms
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2606.02 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2680.63 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2759.72 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2693.6 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2689.77 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2975.02 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: possible alternans detected, APD90s = 1798.82, 960.313 ms
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2635.08 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2585.94 ms) for two paces of 2000ms.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2579.43 ms) for two paces of 2000ms.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 56.2341uM: only one action potential was recorded (2746.12 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2856.34 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2921.26 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (3116.34 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2674.41 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2734.12 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2767.43 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2771.15 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2942.28 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2731.72 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2736.97 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2726.09 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2704.93 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2823.4 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2805.65 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2637.93 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2704.88 ms) for two paces of 2000ms.
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 10000 paces.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2826.9 ms) for two paces of 2000ms.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD30 changed from 17.5288 to -5.56797 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file heart/src/postprocessing/CellProperties.cpp at line 292: The voltage threshold for measuring APD90 changed from -6.48984 to -17.0713 in this AP trace, which may suggest CellProperties isn't telling you anything very sensible!
+Chaste warning: in file projects/ApPredict/src/single_cell/AbstractActionPotentialMethod.cpp at line 160: At a concentration of 100uM: only one action potential was recorded (2754.41 ms) for two paces of 2000ms.

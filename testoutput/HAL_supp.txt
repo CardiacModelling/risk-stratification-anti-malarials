@@ -1,0 +1,139 @@
+$CHASTE_TEST_OUTPUT is currently set to  /home/appredict/apps/ApPredict/testoutput.
+Copyright (c) 2005-2020, University of Oxford.
+All rights reserved.
+
+University of Oxford means the Chancellor, Masters and Scholars of the
+University of Oxford, having an administrative office at Wellington
+Square, Oxford OX1 2JD, UK.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+ * Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of the University of Oxford nor the names of its
+   contributors may be used to endorse or promote products derived from this
+   software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+This version of Chaste was compiled on:
+Mon, 15 Jun 2020 09:25:37 +0000 by Linux 7c48ad816ede 4.15.0-55-generic #60-Ubuntu SMP Tue Jul 2 18:22:20 UTC 2019 x86_64 (uname)
+from revision number 9c205f0 with build type GccOpt, shared libraries.
+
+# 26 arguments supplied.
+* na IC50s = 331.131  uM, Hills = 1.0 (default), Saturation level = 0% (default).
+* cal IC50s = 1.90546  uM, Hills = 1.0 (default), Saturation level = 0% (default).
+* herg IC50s = 0.380189  uM, Hills = 1.0 (default), Saturation level = 0% (default).
+* iks: no drug effect
+* ik1: no drug effect
+* ito: no drug effect
+* nal: no drug effect
+* max free plasma concentration = 5.7 uM
+* min free plasma concentration = 0 uM
+* number of plasma concentrations = 7
+Drug Conc = 0 uM
+g_na factor = 1
+g_cal factor = 1
+g_herg factor = 1
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 289.812
+Steady state detected after 80 paces.
+Last 2 AP duration(s) = 289.807,	289.807,	
+0.5Hz Upstroke velocity = 227.582, Peak mV = 41.9181, APD50 = 236.936, APD90 = 289.807, percent change APD90 = 0
+qNet at 0uM = 0.0690176 C/F
+Drug Conc = 0.001 uM
+g_na factor = 0.999997
+g_cal factor = 0.999475
+g_herg factor = 0.997377
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 290.236
+Steady state detected after 328 paces.
+Last 2 AP duration(s) = 290.239,	290.239,	
+0.5Hz Upstroke velocity = 227.581, Peak mV = 41.9176, APD50 = 237.273, APD90 = 290.239, percent change APD90 = 0.148997
+qNet at 0.001uM = 0.0689229 C/F
+Drug Conc = 0.57 uM
+g_na factor = 0.998282
+g_cal factor = 0.76974
+g_herg factor = 0.40012
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 438.451
+Steady state detected after 832 paces.
+Last 2 AP duration(s) = 440.826,	440.826,	
+0.5Hz Upstroke velocity = 227.831, Peak mV = 41.3787, APD50 = 349.485, APD90 = 440.826, percent change APD90 = 52.1101
+qNet at 0.57uM = 0.0430445 C/F
+Drug Conc = 1.14 uM
+g_na factor = 0.996569
+g_cal factor = 0.625672
+g_herg factor = 0.250093
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 513.45
+Steady state detected after 784 paces.
+Last 2 AP duration(s) = 514.336,	514.336,	
+0.5Hz Upstroke velocity = 228.527, Peak mV = 40.8453, APD50 = 402.217, APD90 = 514.336, percent change APD90 = 77.4753
+qNet at 1.14uM = 0.0350307 C/F
+Drug Conc = 1.71 uM
+g_na factor = 0.994862
+g_cal factor = 0.527031
+g_herg factor = 0.181892
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 558.434
+Steady state detected after 754 paces.
+Last 2 AP duration(s) = 558.704,	558.704,	
+0.5Hz Upstroke velocity = 229.231, Peak mV = 40.472, APD50 = 434.002, APD90 = 558.704, percent change APD90 = 92.7848
+qNet at 1.71uM = 0.0312898 C/F
+Drug Conc = 2.28 uM
+g_na factor = 0.993162
+g_cal factor = 0.455257
+g_herg factor = 0.142918
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 587.826
+Steady state detected after 732 paces.
+Last 2 AP duration(s) = 587.875,	587.874,	
+0.5Hz Upstroke velocity = 229.918, Peak mV = 40.2146, APD50 = 454.893, APD90 = 587.874, percent change APD90 = 102.85
+qNet at 2.28uM = 0.0292374 C/F
+Drug Conc = 5.7 uM
+g_na factor = 0.983078
+g_cal factor = 0.250538
+g_herg factor = 0.0625292
+g_iks factor = 1
+g_ik1 factor = 1
+g_ito factor = 1
+g_nal factor = 1
+First pace APD90 = 654.97
+Steady state detected after 858 paces.
+Last 2 AP duration(s) = 653.597,	653.597,	
+0.5Hz Upstroke velocity = 233.692, Peak mV = 39.5127, APD50 = 500.863, APD90 = 653.597, percent change APD90 = 125.528
+qNet at 5.7uM = 0.0260282 C/F
+Chaste warning: in file projects/ApPredict/src/single_cell/ApPredictMethods.cpp at line 1662: ohara_rudy_cipa_v1_2017 does not have 'membrane_fast_transient_outward_current_conductance' labelled, please tag it in the CellML file if it is present.
+Chaste warning: in file projects/ApPredict/src/single_cell/ApPredictMethods.cpp at line 1671: ohara_rudy_cipa_v1_2017 does not have 'membrane_fast_transient_outward_current_conductance' labelled, using combined Ito (fast and slow) instead...
+Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 96 paces.

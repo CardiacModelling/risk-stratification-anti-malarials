@@ -4,7 +4,7 @@ Dominic G. Whittaker, Rebecca A. Capel, Maurice Hendrix, Xin Hui S. Chan, Neil H
 
 ## Requirements
 
-Processing and plotting the simulation data in this repository requires installation of python 3 and certain libraries therein. We recommend installing packages and running the scripts in a virtual environment to avoid version conflicts. In order to do this, follow these steps:
+Processing and plotting the simulation data in this repository requires installation of python 3 and certain libraries within. We recommend installing packages and running the scripts in a virtual environment to avoid version conflicts. In order to do this, follow these steps:
 
 - `virtualenv folder_name` or if you have both python 2 and 3: `virtualenv --python=python3 folder_name`. Should `virtualenv` not be recognised you may need to call it as `python -m virtualenv folder_name` or (`python -m virtualenv folder_name`). If that doesn't work you may need to install virtualenv first `pip install virtualenv`.
 - go into the virtual environment `cd folder_name` folder

@@ -34,7 +34,7 @@ For convenience we have already stored all of the simulation data in `testoutput
 In order to generate Figure 1 from the paper, simply type:
 
 - `python Figure1.py` (or `python3 Figure1.py` if you have both python 2 and 3 installed).
-- Figures 2 and S1 can be rendered using the same command (i.e. `python Figure2.py` and `python FigureS1.py`.
+- Figures 2 and S1 can be rendered using the same command (i.e. `python Figure2.py` and `python FigureS1.py`).
 - Pre-generated and saved figures used in the paper can be found in [figures/](./figures).
 
 ## Acknowledging this work

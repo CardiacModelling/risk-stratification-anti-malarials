@@ -1,6 +1,6 @@
 # Commands for ApPredict
 
-Here is a list of the commands used to generate the simulation data.
+Here is a list of the commands used to generate the simulation data:
 
 ### azithromycin
 `./ApPredict.sh --model 8 --pacing-freq 0.5 --pic50-herg 4.15 --pic50-spread-herg 0.139 --pic50-iks 3.33 --pic50-spread-iks 0.127 --pic50-nal 3.72 --pic50-spread-nal 0.15 --pic50-ito 4.05 --pic50-spread-ito 0.15 --plasma-conc-high 100 --plasma-conc-count 19 --plasma-conc-logscale True --no-downsampling True --credible-intervals 60 70 80 90 95 --brute-force 1000 --output-dir AZ &> testoutput/AZ.txt &`

@@ -3,7 +3,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import argparse
 
-from parse_data import get_scores, parse, drug_dictionary
+from lib.parse_data import get_scores, parse, drug_dictionary
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-t", "--thresholds", action='store_true', help="whether to use ONS England data or not",
@@ -37,7 +37,8 @@ c_hmox = c_hmox / drug_cmax['HCQ_MOX']
 c_lrit = c_lrit / drug_cmax['LOP_RIT']
 
 drugs = ['AZ', 'MOX', 'LOP_RIT', 'CQ', 'HCQ', 'HCQ_AZ', 'HCQ_MOX', 'HAL', 'QUIN', 'HCQ_HAL']
-drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroquine', 'hydroxychloroquine', 'hydroxychloroquine\n/azithromycin', 'hydroxychloroquine\n/moxifloxacin', 'halofantrine', 'quinine', 'hydroxychloroquine\n/halofantrine']
+drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroquine', 'hydroxychloroquine', 'hydroxychloroquine\n/azithromycin', \
+'hydroxychloroquine\n/moxifloxacin', 'halofantrine', 'quinine', 'hydroxychloroquine\n/halofantrine']
 labels = ['Low', 'Intermediate', '', '', 'High', '', '', '', '', '']
 
 cmap = plt.get_cmap("tab10")
@@ -103,20 +104,19 @@ for i, j in enumerate(drugs):
     else:
         colour = 'dodgerblue'
 
-    plt.errorbar(risk_median, len(drugs) - 1 - i, xerr=np.array([[risk_median - risk_low, risk_high - risk_median]]).T, fmt='ko', capsize=10, mec=colour, mfc=colour, ecolor=colour, label=labels[i])
+    plt.errorbar(risk_median, len(drugs) - 1 - i, xerr=np.array([[risk_median - risk_low, risk_high - risk_median]]).T, fmt='ko', capsize=10, mec=colour, \
+      mfc=colour, ecolor=colour, label=labels[i])
 
-# get handles
 handles, labels = ax3.get_legend_handles_labels()
-# remove the errorbars
 handles = [h[0] for h in handles]
-# use them in the legend
 ax3.legend(handles, labels)
 
 plt.axvline(0.0581, color='red', linestyle='dashed')
 plt.axvline(0.0671, color='forestgreen', linestyle='dashed')
 ax3.set_xlabel('Torsade metric score')
 ax3.set_yticks([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-ax3.set_yticklabels([drug_labels[9], drug_labels[8], drug_labels[7], drug_labels[6], drug_labels[5], drug_labels[4], drug_labels[3], drug_labels[2], drug_labels[1], drug_labels[0]])
+ax3.set_yticklabels([drug_labels[9], drug_labels[8], drug_labels[7], drug_labels[6], drug_labels[5], drug_labels[4], drug_labels[3], drug_labels[2], \
+  drug_labels[1], drug_labels[0]])
 plt.grid(True)
 
 plt.show()

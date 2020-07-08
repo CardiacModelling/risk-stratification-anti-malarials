@@ -3,7 +3,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import argparse
 
-from parse_data import get_scores, parse, drug_dictionary
+from lib.parse_data import get_scores, parse, drug_dictionary
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-t", "--thresholds", action='store_true', help="whether to use ONS England data or not",
@@ -89,13 +89,11 @@ for i, j in enumerate(drugs_cq):
     else:
         colour = 'dodgerblue'
 
-    plt.errorbar(risk_median, len(drugs_cq) - 1 - i, xerr=np.array([[risk_median - risk_low, risk_high - risk_median]]).T, fmt='ko', capsize=10, mec=colour, mfc=colour, ecolor=colour, label=labels_cq[i])
+    plt.errorbar(risk_median, len(drugs_cq) - 1 - i, xerr=np.array([[risk_median - risk_low, risk_high - risk_median]]).T, fmt='ko', capsize=10, mec=colour, \
+        mfc=colour, ecolor=colour, label=labels_cq[i])
 
-# get handles
 handles, labels = ax3.get_legend_handles_labels()
-# remove the errorbars
 handles = [h[0] for h in handles]
-# use them in the legend
 ax3.legend(handles, labels)
 
 ax3.set_xlim([0.01, 0.07])
@@ -120,13 +118,11 @@ for i, j in enumerate(drugs_hcq):
     else:
         colour = 'dodgerblue'
 
-    plt.errorbar(risk_median, len(drugs_hcq) - 1 - i, xerr=np.array([[risk_median - risk_low, risk_high - risk_median]]).T, fmt='ko', capsize=10, mec=colour, mfc=colour, ecolor=colour, label=labels_hcq[i])
+    plt.errorbar(risk_median, len(drugs_hcq) - 1 - i, xerr=np.array([[risk_median - risk_low, risk_high - risk_median]]).T, fmt='ko', capsize=10, mec=colour, \
+        mfc=colour, ecolor=colour, label=labels_hcq[i])
 
-# get handles
 handles, labels = ax4.get_legend_handles_labels()
-# remove the errorbars
 handles = [h[0] for h in handles]
-# use them in the legend
 ax4.legend(handles, labels)
 
 ax4.set_xlim([0.01, 0.07])

@@ -14,7 +14,7 @@ Processing and plotting the simulation data in this repository requires installa
 
 ## Generating the data
 
-The simulations in this paper use the ApPredict tool -- see [here]((https://chaste.cs.ox.ac.uk/trac/wiki/ApPredict) for installation instructions. In order to generate the data used in the paper, after installing ApPredict and docker run the following commands from within a virtual environment:
+The simulations in this paper use the ApPredict tool (see [here](https://chaste.cs.ox.ac.uk/trac/wiki/ApPredict) for installation instructions). In order to generate the data used in the paper, after installing ApPredict and docker run the following commands from within a virtual environment:
 
 - `docker run -it appredict-no-emulators:brute_force /bin/bash`
 - `cd apps/ApPredict/`

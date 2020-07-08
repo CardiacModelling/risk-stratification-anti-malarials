@@ -6,7 +6,7 @@ Dominic G. Whittaker, Rebecca A. Capel, Maurice Hendrix, Xin Hui S. Chan, Neil H
 
 Processing and plotting the simulation data in this repository requires installation of python 3 and certain libraries within. We recommend installing packages and running the scripts in a virtual environment to avoid version conflicts. In order to do this, follow these steps:
 
-- `virtualenv folder_name` (or `virtualenv --python=python3 folder_name` if you have both python 2 and 3). If `virtualenv` is not recognised you may need to call it as `python -m virtualenv folder_name` or (`python -m virtualenv folder_name`). If that doesn't work you may need to install virtualenv first `pip install virtualenv`.
+- `virtualenv folder_name` (or `virtualenv --python=python3 folder_name` if you have both python 2 and 3). If `virtualenv` is not recognised you may need to call it as `python -m virtualenv folder_name` or (`python -m virtualenv folder_name`). If that doesn't work you may need to install virtualenv first with `pip install virtualenv`.
 - activate the virtual environment with `source folder_name/bin/activate` (or `folder_name/Scripts\activate` on Windows)
 - now get the source code from git: `git clone https://github.com/DGWhittaker/risk-stratification-anti-malarials.git`
 - install the required packages by typing `pip install -r requirements.txt`

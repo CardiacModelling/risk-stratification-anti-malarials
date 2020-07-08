@@ -32,7 +32,7 @@ Here is a list of the commands used to generate the simulation data.
 ### lopinavir/ritonavir
 `./ApPredict.sh --model 8 --pacing-freq 0.5 --pic50-herg 5.29 --pic50-spread-herg 0.139 --pic50-cal 4.81 --pic50-spread-cal 0.181 --pic50-drug-two-herg 5.29 --pic50-spread-drug-two-herg 0.139 --pic50-drug-two-cal 5.08 --pic50-spread-drug-two-cal 0.181 --pic50-drug-two-nal 5.14 --pic50-spread-drug-two-nal 0.15 --drug-two-conc-factor 0.62 --plasma-conc-high 100 --plasma-conc-count 19 --plasma-conc-logscale True --no-downsampling True --credible-intervals 60 70 80 90 95 --brute-force 1000 --output-dir LOP_RIT &> testoutput/LOP_RIT.txt &`
 
-# Supplementary commands for Figure 1
+## Supplementary commands for Figure 1
 
 Figure 1 requires action potential waveforms which can be generated quickly using:
 

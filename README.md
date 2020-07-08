@@ -22,7 +22,7 @@ We also recommend activating a screen session if using Linux as it may take many
 
 - `./ApPredict.sh --model 8 --pacing-freq 0.5 --pic50-herg 5.25 --pic50-spread-herg 0.139 --pic50-cal 4.57 --pic50-spread-cal 0.181 --pic50-iks 5.03 --pic50-spread-iks 0.127 --plasma-conc-high 100 --plasma-conc-count 19 --plasma-conc-logscale True --no-downsampling True --credible-intervals 60 70 80 90 95 --brute-force 1000 --output-dir HCQ &> testoutput/HCQ.txt &`
 
-which runs the simulation in detached mode and stores the data in `testoutput/HCQ/` and console output in `testoutput/HCQ.txt`. For a full list of the commands used to generate simulation data for all drugs and combinations see `commands.txt`. For convenience we have stored all of the simulation data in `testoutput`.
+which runs the simulation in detached mode and stores the data in `testoutput/HCQ/` and console output in `testoutput/HCQ.txt`. For a full list of the commands used to generate simulation data for all drugs and combinations see [commands](./commands). For convenience we have stored all of the simulation data in `testoutput`.
 
 ## Plotting the figures
 
@@ -30,7 +30,7 @@ In order to generate Figure 1 from the paper, simply type:
 
 - `python Figure1.py` (or `python3 Figure1.py` if you have both python 2 and 3 installed).
 - Figures 2 and S1 can be rendered using the same command (i.e. `python Figure2.py` and `python FigureS1.py`.
-- Pre-generated and saved figures used in the paper can be found in [Figures/](./Figures).
+- Pre-generated and saved figures used in the paper can be found in [figures/](./figures).
 
 ## Acknowledging this work
 

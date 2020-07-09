@@ -83,7 +83,7 @@ ax2.fill_between(c_hhal, ql_hhal, qh_hhal, facecolor=cmap(2), edgecolor=None, al
 plt.semilogx(c_hmox, qm_hmox, color=cmap(3), label='HCQ/MOX')
 ax2.fill_between(c_hmox, ql_hmox, qh_hmox, facecolor=cmap(3), edgecolor=None, alpha=0.2)
 ax2.legend()
-ax2.set_xlabel( r'$\times$ $C_{\rm{max}}$' )
+ax2.set_xlabel( r'$\times$ free $C_{\rm{max}}$' )
 ax2.set_ylabel( 'qNet (C/F)' )
 ax2.set_xticks([0.01, 0.1, 1, 4, 10])
 ax2.set_xticklabels([0.01, 0.1, 1, 4, 10])

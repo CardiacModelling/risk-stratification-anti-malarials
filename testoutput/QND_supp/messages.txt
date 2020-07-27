@@ -1,0 +1,9 @@
+Action potential prediction simulation recorded the following notes:
+ * At a concentration of 6.474uM: only one action potential was recorded (2707.01 ms) for two paces of 2000ms.
+ * At a concentration of 6.474uM qNet was not calculated as the AP did not repolarise (this indicates very high risk).
+ * At a concentration of 9.711uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 9.711uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 12.948uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 12.948uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 32.37uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 32.37uM: no action potentials were recorded, cell did not repolarise.

@@ -1,342 +1,1645 @@
 Action potential prediction simulation recorded the following notes:
- * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1292.68, 847.524 ms
- * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1196.36, 864.068 ms
- * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1292.15, 958.151 ms
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1271.4, 921.411 ms
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1318.74, 893.727 ms
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1324.6, 869.662 ms
- * At a concentration of 31.6228uM: only one action potential was recorded (2637.24 ms) for two paces of 2000ms.
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1245.72, 896.469 ms
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1261.65, 817.517 ms
- * At a concentration of 31.6228uM: only one action potential was recorded (2559.79 ms) for two paces of 2000ms.
- * At a concentration of 31.6228uM: only one action potential was recorded (2660.62 ms) for two paces of 2000ms.
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1179.57, 920.734 ms
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1298.59, 869.116 ms
- * At a concentration of 31.6228uM: only one action potential was recorded (2715.14 ms) for two paces of 2000ms.
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1290.81, 876.941 ms
- * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1222.93, 827.457 ms
+ * At a concentration of 10uM: possible alternans detected, APD90s = 1166.76, 903.938 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1310.44, 898.513 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1297.32, 824.501 ms
+ * At a concentration of 17.7828uM: only one action potential was recorded (2523.83 ms) for two paces of 2000ms.
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1424.49, 953.174 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1392.16, 804.036 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1314.5, 789.869 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1226.71, 828.264 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1253.55, 851.579 ms
+ * At a concentration of 17.7828uM: possible alternans detected, APD90s = 1217.93, 858.22 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1333.55, 953.189 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1277.93, 1004.24 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1252.94, 928.839 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1767.22, 930.976 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2589.56 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: only one action potential was recorded (2918.91 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: only one action potential was recorded (2557.25 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: only one action potential was recorded (2697.53 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1234.1, 974.188 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1349.79, 959.093 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1271.67, 949.302 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1265.79, 890.67 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1289.36, 897.433 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1292.17, 858.209 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1302.72, 1022.08 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2678.42 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1264.53, 884.535 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2521.06 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1264.75, 982.008 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1337.05, 862.228 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2745.56 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1305.91, 899.628 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2541.08 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1346.4, 871.97 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1788.87, 906.725 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2836.04 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1290.91, 906.378 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1304.77, 1026.64 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2555.68 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1294.71, 926.537 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1249.32, 929.723 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1346.1, 987.594 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1293.15, 867.27 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1446.71, 976.307 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1242.42, 885.409 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2681.94 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1299.58, 921.915 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1320.4, 948.404 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1431.12, 981.924 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1399.48, 1020.45 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2575.13 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1361.71, 763.957 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1285.12, 873.824 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1355.99, 883.324 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1285.69, 897.991 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1231.82, 845.52 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1287.73, 901.693 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1384.44, 867.449 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1240.34, 925.364 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2578.49 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1194.23, 899.354 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1439.61, 891.265 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1333.67, 950.48 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2613.31 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: only one action potential was recorded (2568.8 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: only one action potential was recorded (2592.25 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1425.2, 858.678 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1775.69, 929.368 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1208.21, 868.204 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2583.21 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1752.83, 904.72 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1278.43, 972.806 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2745.26 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1266.03, 892.34 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1323.06, 988.158 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1375.42, 836.993 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1906.11, 1069.62 ms
+ * At a concentration of 31.6228uM: only one action potential was recorded (2527.61 ms) for two paces of 2000ms.
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1299.86, 1010.29 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1256.37, 855.212 ms
+ * At a concentration of 31.6228uM: possible alternans detected, APD90s = 1277.23, 914.443 ms
  * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1359.27, 909.21 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1334.83, 1000.7 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 979.083, 1296.86 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 971.905, 1323.91 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1452.36, 1117.54 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1296.17, 920.949 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1273.91, 966.164 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 999.085, 1290.95 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1348.82, 1014.28 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1001.27, 1264.84 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2579.66 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1427.9, 991.187 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1315.28, 908.967 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1341.32, 1042.66 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2660.82 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2658.85 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2761.27 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2673.78 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1342.97, 959.615 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1316.04, 799.983 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1324.22, 961.439 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2772.04 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1282.59, 934.636 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1246.02, 935.711 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 985.467, 1295.38 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2654.12 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2704.74 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 913.465, 1248.93 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1728.45, 1298.24 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2750.3 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1208.98, 880.205 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 983.204, 1306.98 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1352.48, 1061.01 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2678.5 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (3004.54 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2723.51 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1021.93, 1349.2 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1431.26, 986.788 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2596 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2511.85 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2832.44 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2576.38 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 961.239, 1272.18 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2685.54 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1718.68, 1269.67 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1291.78, 951.247 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1333.37, 1028.96 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2781.94 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1397.99, 1018.61 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1736.7, 1291.28 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2656.88 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1270.43, 848.732 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2745.79 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1285.12, 980.023 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1322.15, 987.437 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1327.34, 1025.37 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2523.4 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1300.82, 992.249 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1274.84, 966.827 ms
  * At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 56.2341uM: only one action potential was recorded (2673.62 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2572.1 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1409.62, 920.063 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1377.93, 1026.24 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1507.29, 1081.09 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1333.63, 1031.88 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1718.48, 1262.77 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2587.12 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2699.65 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2679.27 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2725.99 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1485.76, 1024.48 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1334.33, 868.75 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1299.19, 1000.52 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1315.87, 943.506 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2582.57 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1344.97, 966.563 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1284.38, 939.684 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 983.988, 1294.93 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2649.16 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1707.83, 1269.11 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1251.18, 943.595 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2589.19 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 998.337, 1283.37 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1271.36, 894.588 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1227.04, 883.138 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2599.84 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2630.26 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2884.06 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1291.81, 985.218 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1508.19, 1574.26 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1632.02, 1168.43 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2611.77 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2663.11 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1769.08, 1000.09 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1346.51, 884.934 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2584.21 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1265.06, 813.651 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2876.39 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1407.29, 903.55 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1772.15, 1003.63 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1657.05, 1195.38 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1573.28, 1194.99 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1416.68, 1119.51 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1357.05, 957.378 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1331.45, 941.891 ms
- * At a concentration of 56.2341uM: only one action potential was recorded (2728.17 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: only one action potential was recorded (2684.34 ms) for two paces of 2000ms.
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1338.14, 1052.73 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1727.69, 1267.03 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1270.11, 941.55 ms
- * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1334.03, 1006.31 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2684.65 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1277.07, 927.586 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1761.63, 1049.84 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2595.3 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2646.74 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2678.41 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1324.69, 1043.37 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1752.94, 1017.03 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2512.43 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1902.14, 1048.37 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1515.35, 1202.68 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1369.23, 959.453 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1424.3, 1080.12 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2657.1 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1428.34, 1127.27 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1471.92, 1040.21 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1237.6, 894.859 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1348.2, 1055.17 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1533.31, 1096.28 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1304.56, 951.645 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1267, 884.261 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 958.614, 1226.93 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2663.19 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2746.1 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2830.98 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2645.9 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1304.77, 882.089 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2678.81 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2639.5 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2681.37 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2678.09 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 836.602, 1238.03 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1271.36, 878.151 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2940.64 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2633.52 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2721.65 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1325.81, 911.711 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1458.14, 988.868 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2694.74 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2586.42 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2636.82 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 943.752, 1262.2 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1419.75, 1073.24 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 990.447, 1263.53 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1309.44, 807.193 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2686.39 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1675.62, 1218.41 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1015.3, 1300.28 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1343.74, 991.428 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2694.3 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 988.775, 1306.98 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2774.46 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1333.88, 1008.49 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2599.68 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1444.42, 1144.23 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (3047.78 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1386.55, 944.303 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2686.24 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2612.36 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1299.14, 905.49 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1263.87, 970.234 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2749.89 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2606.57 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2763.22 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2703.02 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1725.07, 1290.94 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1283.24, 979.457 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1328.12, 915.073 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2795.82 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2746.05 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2682.88 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1763.11, 1008.52 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2574.47 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1329.08, 901.191 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 923.948, 1224.26 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1262.74, 917.188 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1383.66, 1087.79 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2877.59 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1392.42, 893.697 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2625.85 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1699.75, 1257.64 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1298.87, 938.772 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2576.49 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1331.21, 1006.87 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1734.56, 1272.54 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2839.66 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1286.8, 983.583 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1396.98, 961.83 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1329.24, 1048.67 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2706.91 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1015.44, 1293.19 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2555.33 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2705.33 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2580.03 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1380.45, 894.688 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2608.42 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2744.19 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1367.18, 892.897 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2872.52 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2715.53 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2875.8 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2623.63 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2616.75 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1371.09, 888.63 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 913.248, 1226.69 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1487.28, 1104.65 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1612.54, 1153.42 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1329.04, 1027.2 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2591.53 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2627.18 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2644.37 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2644.19 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1311.92, 919.139 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1764.02, 1015.43 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1299.13, 951.469 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2712.73 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1261.47, 926.835 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1479.72, 993.117 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1362.8, 969.32 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1277.04, 962.92 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2659.8 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1377.45, 916.859 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1441.96, 985.604 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1357.12, 980.755 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2675.37 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1288.75, 969.924 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2632.49 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1496.42, 1064.77 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1283.13, 883.278 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1357.9, 961.977 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1409.39, 1070.24 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1374.15, 1037.39 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2596.09 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2792.69 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1320.57, 1032.22 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1298.37, 908.945 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1671.62, 1217.69 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2679.91 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1497.43, 1030.73 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2757.91 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1419.51, 936.331 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1286.42, 970.052 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2598.28 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1469.68, 982.226 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1496.04, 1102.04 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1022.18, 1325.31 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1660.08, 1198.69 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1819.93, 949.359 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1282.6, 896.66 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2637.99 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1013.33, 1271.25 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1348.91, 1066.72 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1713.83, 1272.03 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2763.06 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 910.528, 1234.07 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1724.27, 1198.93 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2592.82 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1650.38, 1190.52 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2628.08 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1310.98, 903.528 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1342.53, 990.714 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1737.33, 1275.21 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 920.31, 1254.61 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1661, 1201.79 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2759.55 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 830.156, 1239.06 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1354.54, 844.841 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1363.26, 978.614 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1324.39, 833.106 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 979.684, 1323.75 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1546.02, 1120.91 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2689.57 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 977.759, 1262.47 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2693.72 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2706.54 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1397.17, 978.541 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2765.43 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 874.02, 1205.67 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2644.75 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1333.12, 923.554 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1291.5, 924.238 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2970.52 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2765.54 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1659.85, 1201.61 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1533.59, 1045.72 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2618.33 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2641.84 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2704.42 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2731.9 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2700.52 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (3022.8 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1382.52, 941.32 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2558.23 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2652.22 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2701.81 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2767.22 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1466.51, 1079.58 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1369.88, 963.976 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1293.96, 933.611 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1711.89, 1241.04 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1307.21, 950.238 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1327.01, 903.248 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (3333.35 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2593.86 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2672.61 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1314.43, 780.569 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 993.494, 1286.39 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2660.63 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2739.96 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2574.31 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1352.53, 1022.5 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2645.15 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1279.29, 978.307 ms
+ * At a concentration of 56.2341uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2618.32 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1331.09, 1050.35 ms
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1344.08, 1019.52 ms
+ * At a concentration of 56.2341uM: only one action potential was recorded (2591.1 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2510.25 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: only one action potential was recorded (2676.87 ms) for two paces of 2000ms.
+ * At a concentration of 56.2341uM: possible alternans detected, APD90s = 1359.75, 953.674 ms
  * At a concentration of 100uM: only one action potential was recorded (2743.68 ms) for two paces of 2000ms.
  * At a concentration of 100uM qNet was not calculated as the AP did not repolarise (this indicates very high risk).
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2785.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2706.99 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2703.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2679.23 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2640.3 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2667.47 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2806 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2905.91 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2740.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2688.87 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2693.51 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2555.39 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2955.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2808.48 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2728.89 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1794.11, 907.534 ms
+ * At a concentration of 100uM: only one action potential was recorded (2781.98 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1876.21, 885.292 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2748.85 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2643.89 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2699.23 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1826.34, 890.384 ms
- * At a concentration of 100uM: only one action potential was recorded (385.432 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1968.14, 815.266 ms
+ * At a concentration of 100uM: only one action potential was recorded (2856.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (664.76 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (396.032 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2788.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2595.5 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2738.87 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (756.892 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (675.396 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (382.336 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2750.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1834.22, 892.978 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2711.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2878.24 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2719.26 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2602 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2853.34 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2735.79 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (3023.66 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2713.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (392.484 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2763.67 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1790.53, 844.84 ms
+ * At a concentration of 100uM: only one action potential was recorded (2771.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1823, 896.114 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2730.92 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2845.24 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2826.62 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1848.42, 848.348 ms
+ * At a concentration of 100uM: only one action potential was recorded (2749.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (764.273 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2727.04 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1816.14, 856.311 ms
+ * At a concentration of 100uM: only one action potential was recorded (2827.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1882.36, 884.156 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2762.7 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2698.57 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2762.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2862.37 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2865.73 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1585.52, 1144.4 ms
+ * At a concentration of 100uM: only one action potential was recorded (2769.88 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1401.41, 1000.01 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2814.49 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2906.55 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2781.67 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2693.9 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2933.12 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (389.47 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2867.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (382.248 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2728 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2670.06 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2737.06 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (384.311 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2857.24 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2684.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2779.61 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2760.71 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2782.17 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2662.75 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2639.07 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2732.39 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2690.9 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2705.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2651.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (401.11 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1394.26, 1002.77 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2708.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2760.59 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2741.45 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (3007.2 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2746.73 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2677.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (404.378 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1925.57, 825.252 ms
+ * At a concentration of 100uM: only one action potential was recorded (384.043 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1352.9, 1080.93 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2776.07 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2678.23 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2786.43 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1802.98, 904.808 ms
- * At a concentration of 100uM: only one action potential was recorded (401.217 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1411.53, 1536.36 ms
+ * At a concentration of 100uM: only one action potential was recorded (2870.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (399.597 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1231.83, 881.439 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2700.52 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2847.21 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2641.6 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2701.45 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1856.18, 822.278 ms
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2699.96 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1390.5, 1020.07 ms
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2696.54 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1249.63, 990.751 ms
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2715.93 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (649.675 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2851.62 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2724.1 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2672.37 ms) for two paces of 2000ms.
- * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2672.81 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (764.715 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2697.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1597.06, 1138.81 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1887.94, 858.99 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
- * At a concentration of 100uM: only one action potential was recorded (2644.86 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (352.65 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2638.92 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1333.5, 898.891 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2637.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2697.19 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2677.88 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2727.96 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1850.44, 897.777 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2760.69 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2858.52 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2780.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2844.77 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2690.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2904.11 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (386.587 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2742.19 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1360.43, 1044.75 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1529.32, 1086.89 ms
+ * At a concentration of 100uM: only one action potential was recorded (2638.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (388.206 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2673.14 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1894.49, 852.725 ms
+ * At a concentration of 100uM: only one action potential was recorded (2761.5 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2675.95 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1376.93, 1557.73 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1937.52, 843.456 ms
+ * At a concentration of 100uM: only one action potential was recorded (2719.78 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2665.41 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (396.519 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2968.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2927.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2848.89 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
- * At a concentration of 100uM: only one action potential was recorded (2610.49 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2586.77 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1402.44, 1089.31 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1840.67, 872.316 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1476.4, 1039.29 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2757.94 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2762.77 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1869.77, 836.341 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2823.4 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2715.2 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1826.37, 865.491 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2600.94 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2780.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1762.62, 886.367 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2759.9 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1462.43, 1116.1 ms
+ * At a concentration of 100uM: only one action potential was recorded (2689.09 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (3097.5 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2864.21 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2776.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (3398.37 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2705.87 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1779.55, 877.822 ms
- * At a concentration of 100uM: only one action potential was recorded (400.536 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2654.58 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2983.63 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1413.45, 1069.99 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1845.39, 843.392 ms
+ * At a concentration of 100uM: only one action potential was recorded (2771.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1307.02, 917.336 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2667.81 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2911.6 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2744.12 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1484.07, 1078.71 ms
+ * At a concentration of 100uM: only one action potential was recorded (2617.06 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2685.62 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1627.8, 1219.2 ms
+ * At a concentration of 100uM: only one action potential was recorded (2782.29 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2572.87 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (764.086 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2716.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (397.425 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2618.21 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2876.98 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2810.96 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1396.3, 1052.91 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1843.07, 835.679 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2664.04 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2983.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1871.27, 842.594 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1486.87, 1081.02 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2753.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2774.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (740.901 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2694.41 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2746.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2724.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2857.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2634.76 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2637.81 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3058.76 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2637.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (404.655 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2737.3 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2664.59 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (363.142 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2932.08 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (397.208 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2881.8 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1526.79, 1046.78 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1864.14, 882.078 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1916.74, 759.949 ms
+ * At a concentration of 100uM: only one action potential was recorded (401.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1542.82, 1054.69 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2711.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2652.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2767.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2737.61 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
- * At a concentration of 100uM: only one action potential was recorded (2513.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2565.16 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2877.25 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2714.56 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2812.7 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2766.44 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2759.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2932.4 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2790.62 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2874.84 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (392.632 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2855.53 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2764.64 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2758.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2791.12 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2709.31 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2623.95 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2748.43 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (387.572 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2974.49 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1899.55, 854.788 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2655.06 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2837.84 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2799.76 ms) for two paces of 2000ms.
- * At a concentration of 100uM: only one action potential was recorded (397.415 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2654.63 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1437.75, 1007.51 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (3104.56 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1553.02, 1072.22 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1866.13, 882.179 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1899.19, 835.529 ms
- * At a concentration of 100uM: only one action potential was recorded (384.703 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2739.39 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2777.63 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2706.86 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2762.02 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2750.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1950.04, 927.042 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2755.19 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2694.05 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2608.75 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2765.21 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1400.07, 1072.03 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2625.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2707.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1597.46, 1157.95 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (3086.32 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2603.28 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2870.68 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2754.7 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2690.1 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2643.5 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2790.5 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2755.81 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2755.42 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2649.79 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (394.5 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2926.23 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2663.41 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2868.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2721.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1825.02, 899.57 ms
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2755.19 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2680.87 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2737.93 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1902.49, 792.759 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1862.27, 823.023 ms
+ * At a concentration of 100uM: only one action potential was recorded (2809.19 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2612.84 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2688.07 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2666.8 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1437.77, 882.679 ms
+ * At a concentration of 100uM: only one action potential was recorded (2822.78 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2615.14 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2749.41 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2909.49 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2774.77 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2763.1 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1907.5, 831.005 ms
- * At a concentration of 100uM: possible alternans detected, APD90s = 1364.87, 1085.16 ms
+ * At a concentration of 100uM: only one action potential was recorded (2873.22 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (388.559 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (396.864 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2966.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2702.8 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2680.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (2832.29 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2784.17 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1300.89, 920.68 ms
+ * At a concentration of 100uM: only one action potential was recorded (2960.76 ms) for two paces of 2000ms.
  * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
- * At a concentration of 100uM: only one action potential was recorded (2582.49 ms) for two paces of 2000ms.
- * At a concentration of 100uM: possible alternans detected, APD90s = 1383.88, 1000.68 ms
+ * At a concentration of 100uM: only one action potential was recorded (2678.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2604.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2763.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1815.46, 895.55 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2727.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2788.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2732.66 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1867.34, 816.461 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2734.77 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2623.85 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3318.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2992.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2665.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2671.02 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2800.54 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2925.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2860.52 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2777.08 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1804.87, 885.555 ms
+ * At a concentration of 100uM: only one action potential was recorded (383.212 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2693.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2815.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2959.72 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2641.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1896.04, 840.366 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2641.17 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2644.45 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (753.762 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2627.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2522.98 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1791.92, 910.813 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2648.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1397.39, 965.547 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1883.35, 816.578 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2775.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1825.77, 819.531 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2900.23 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2732.09 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2654.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2585.46 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2861.24 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2704.04 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (779.063 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (386.754 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1542.73, 1267.08 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2900.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (737.864 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (391.126 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3051.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2740.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2699.16 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2678.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2598.2 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (398.52 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2832.38 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (777.145 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2827.46 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2787 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2609.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1382.02, 1008.84 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2810.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2778.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1331.25, 978.625 ms
+ * At a concentration of 100uM: only one action potential was recorded (404.051 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2636.25 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1673.3, 1179.93 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1504.66, 1044.07 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2878.28 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2589.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2691.21 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2723.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (702.829 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2653.1 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1392.53, 985.42 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1833.62, 908.635 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3169.65 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2674.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (396.048 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2589.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2691.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1840.42, 880.033 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2817.28 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2723.61 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2603.66 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1829.39, 863.203 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2946.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2765.09 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2685.08 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1396, 1085.07 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1844.93, 846.259 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2722.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1844.79, 844.766 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1399.61, 1109.25 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1393.22, 1080.7 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2834.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (383.779 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2809.8 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1894.71, 870.398 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2753.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2801.82 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2651.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2582.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2780.72 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2808.52 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1356.12, 1021.97 ms
+ * At a concentration of 100uM: only one action potential was recorded (391.431 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2643.07 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (396.645 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2709.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2869.2 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2661.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2703.91 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2570.13 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2797.19 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2802.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2718.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2533.5 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2942.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3000.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2783.45 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2825.54 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1542.62, 1172.21 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1249.83, 946.079 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1269.78, 787.528 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1372.68, 1103.16 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1536.74, 1262.68 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2777.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2906.69 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2713.21 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (398.132 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (392.942 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3449.59 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2653.47 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (393.792 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2799.61 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1896.18, 775.665 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2800.82 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2621.75 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2787.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2687.52 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1287.07, 949.007 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2698.19 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2510.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2527.07 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2630.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (389.013 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2691.18 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (403.577 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2650.24 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2906.18 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2666.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2764.57 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (392.075 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2765.18 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2934.32 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1503.02, 1091.13 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2631.31 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2827.96 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1862.22, 830.818 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2755.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1848.49, 895.936 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2635.06 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2689.84 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2830.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2727.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2747.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2955.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2653.63 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2885.42 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2629.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1347.25, 1071.51 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2821.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2973.48 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (399.361 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2743.18 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (400.859 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1727.11, 1192.22 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2903.5 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2896.81 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2670.08 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2749.94 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1883.36, 848.113 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2743.18 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2714.28 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (397.031 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2593.48 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1334.52, 948.858 ms
+ * At a concentration of 100uM: only one action potential was recorded (369.183 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2707.61 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1815.21, 867.54 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2590.32 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (400.286 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1347.64, 1074.67 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2666.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2657.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2583.32 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2732.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1620.1, 1104.53 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2758.48 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1903.94, 801.109 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1439.57, 879.907 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1382.92, 1080.75 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2729.46 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2606.5 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1788.76, 828.252 ms
+ * At a concentration of 100uM: only one action potential was recorded (396.947 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2826.92 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3045.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1402.14, 1553.87 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1586.68, 1152.45 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1343.59, 1005.65 ms
+ * At a concentration of 100uM: only one action potential was recorded (382.056 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1483.48, 1025.52 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1828.27, 851.662 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2814.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2815.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2909.11 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2688.14 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2715.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2708.34 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2537.15 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2719.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2685.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2745.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1649.83, 1226.22 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1894.47, 809.637 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2725.67 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2778.92 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2745.38 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2824.8 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2828.54 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2938.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3061.08 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (683.411 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2671.82 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2694.7 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1488.9, 1173.48 ms
+ * At a concentration of 100uM: only one action potential was recorded (399.629 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2824.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2739.11 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2910.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2650.67 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2687.98 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2690.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1921.83, 718.807 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2712.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (398.401 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1520.81, 1559.22 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2829.63 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2748.53 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2740.73 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2788.73 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2617.36 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2726.09 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (402.431 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2758.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2706.06 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2884.81 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2730.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3040.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2727.91 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1329.76, 1077.11 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2786.56 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2581.75 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2923.59 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3052.41 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1339.86, 922.242 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2810 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2798.31 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2785.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2622.4 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2541.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2728.18 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2598.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (745.697 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1857.43, 887.445 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1828.67, 910.076 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1380.49, 925.203 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1858.75, 901.59 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2762.72 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (775.763 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1291.12, 992.171 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2737.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3016.41 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1482.96, 958.745 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1537.05, 1603.11 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2526.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2905.11 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2681.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2757.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2761.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1835.96, 819.056 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2818.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2533.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2591.88 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2757.04 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (753.019 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1851.03, 843.006 ms
+ * At a concentration of 100uM: only one action potential was recorded (694.336 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1897, 840.988 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2816.85 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2744.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2800.48 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1566.98, 1120.48 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1859.51, 840.589 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2844.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2858.28 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2720.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2680.93 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1890.6, 841.26 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1405.4, 1028.8 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2751.5 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2620.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2581.51 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2594.04 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2689.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1783.7, 894.681 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2740.98 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2724.85 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2704.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2829.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1902.66, 877.702 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2709.8 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2666.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2592.85 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (401.615 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (393.453 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (390.91 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (403.582 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2616.76 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (391.455 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2818.42 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2813.69 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1923.27, 826.633 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1775.3, 900.894 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1801.98, 846.429 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2696.52 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1387.21, 1102.42 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2805.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2606.68 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2804.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2730 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2823.25 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2550.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2714.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2558.28 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (656.349 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1286.46, 942.782 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2688.41 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1913.27, 810.536 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2575.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1833.3, 881.26 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1405.74, 965.721 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1303.34, 1041.07 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2830.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2610.82 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2840.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2710.88 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2720.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2764.25 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2884.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2808.14 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2784.22 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1873.74, 808.549 ms
+ * At a concentration of 100uM: only one action potential was recorded (390.055 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2709.08 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2781.11 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2826.22 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1344.07, 1032.85 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2823.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3001.9 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2860.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2666.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2795.24 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1409.9, 1068.84 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2902.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2747.69 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2821.62 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2848.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1425.59, 958.957 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1863.42, 847.828 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1791.76, 854.719 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1341.64, 907.644 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2775.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1396.38, 1055.36 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1531.43, 1199.53 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1444.26, 893.877 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2971.2 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2731.16 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2700.23 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (391.002 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2646.66 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2791.25 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (387.788 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2751.16 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2602.88 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2691.06 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1802.04, 887.869 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2923.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (367.915 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2689.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (382.243 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2849.94 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2704.39 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2758.68 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2721.22 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2640.86 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2804.36 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2635.42 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1365.17, 1021.61 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2709.34 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2778.63 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (389.964 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3026.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2742.98 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2624.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2821.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2676.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (385.828 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2836.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2653.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2769.15 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2681.33 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2832.58 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1411.03, 1064.3 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2734.48 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2964.82 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2819.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1423.13, 1080.02 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2613.13 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3275.82 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2826.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2769.8 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2612.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2727.53 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (373.095 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2702.36 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2765.94 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2616.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2820.42 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (793.345 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (396.746 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1870.33, 880.526 ms
+ * At a concentration of 100uM: only one action potential was recorded (719.699 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2705.17 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1351.52, 1075.66 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2901.09 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2800.4 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2795.35 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2748.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2679.69 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2646.16 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2632.91 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2903.79 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (393.134 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2637.89 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2811.53 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (383.716 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2812.94 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1763.81, 848.103 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2680.71 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (382.318 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2749.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2738.4 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1410.26, 939.704 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1817.37, 873.9 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3086.39 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1530.22, 976.608 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2885.16 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2643.36 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1569.22, 1614.22 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2896.4 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1855.26, 890.866 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2897.79 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (720.479 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1494.25, 1140.4 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2614.2 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2692.62 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2761.95 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2840.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2743.25 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2971.19 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1815.78, 854.988 ms
+ * At a concentration of 100uM: only one action potential was recorded (754.326 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2807.22 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2801.72 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2727.8 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2586.1 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1819.64, 882.123 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2740.53 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not depolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2578.16 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2815.05 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2739.72 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2830.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (380.986 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (397.298 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2704.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (390.724 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3254.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2654.06 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2613.03 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (359.185 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (392.169 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1909.83, 716.255 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2987.44 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2663.42 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1828.05, 866.784 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2628.92 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1800.61, 884.356 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2774.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (394.643 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1833.96, 845.325 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2799.71 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2798.65 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2819.09 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1826.42, 887.983 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2913.57 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2785.26 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2887.24 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2834.49 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3243.7 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1646.73, 1257.55 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2793.54 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2708.55 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2751.62 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1821.66, 834.017 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2686.45 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1881.69, 890.592 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2866.63 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2828.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2921.72 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2677.96 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1868.94, 892.285 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1973.96, 815.891 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1807.75, 818.124 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1862.66, 844.252 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2699.66 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2810.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2617.77 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1338.1, 1018.06 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2982.75 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (392.693 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1884.49, 808.558 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1900.42, 844.242 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2613.73 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2594.62 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1829.69, 843.494 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2867.64 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2805.74 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2711.52 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2700.27 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1607.21, 1226.87 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2872.68 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2734.89 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2757.29 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2714.83 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (3206.92 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1919.16, 860.443 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2628.26 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2703.12 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1340.6, 880.719 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2768.43 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1476.08, 1051.12 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2847.75 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2787.17 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (398.197 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2701 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (411.261 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1921.5, 834.114 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2590.04 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1423.46, 1062.76 ms
+ * At a concentration of 100uM: only one action potential was recorded (398.173 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2740.62 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2716.7 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1528.73, 1093.66 ms
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1891.79, 883.727 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2682.04 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (720.66 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2863.21 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2891.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2740.48 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2814.02 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2829.31 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2680.85 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2692.39 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: possible alternans detected, APD90s = 1954.62, 797.967 ms
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2741.97 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2799.37 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2758.99 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: only one action potential was recorded (398.376 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2632.78 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2911.01 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2790.87 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2788.4 ms) for two paces of 2000ms.
+ * At a concentration of 100uM: no action potentials were recorded, cell did not repolarise.
+ * At a concentration of 100uM: only one action potential was recorded (2852.34 ms) for two paces of 2000ms.

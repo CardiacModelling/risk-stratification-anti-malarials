@@ -1,0 +1,23 @@
+Concentration(uM)	Concentration(uM)	UpstrokeVelocity(mV/ms)	PeakVm(mV)	APD50(ms)	APD90(ms)	dAp95%low,dAp90%low,dAp80%low,dAp70%low,dAp60%low,median_delta_APD90,dAp60%upp,dAp70%upp,dAp80%upp,dAp90%upp,dAp95%upp
+0	227.582	41.9181	236.936	289.807	0,0,0,0,0,0,0,0,0,0,0
+0.001	227.579	41.9204	237.334	290.31	0.0540375,0.0710178,0.087303,0.101201,0.116057,0.173692,0.269501,0.310569,0.355258,0.474528,0.569183
+0.00177828	227.575	41.9222	237.642	290.701	0.0911281,0.12622,0.15518,0.179951,0.206233,0.308587,0.478507,0.551245,0.630424,0.841338,1.00856
+0.00316228	227.572	41.9253	238.189	291.394	0.170729,0.224289,0.27567,0.319743,0.366276,0.547786,0.848415,0.976935,1.11676,1.48829,1.78211
+0.00562341	227.566	41.9309	239.156	292.621	0.303307,0.398315,0.489409,0.567697,0.649932,0.970895,1.50082,1.72668,1.97239,2.62207,3.13371
+0.01	227.549	41.9408	240.857	294.781	0.538401,0.706695,0.867735,1.00662,1.15129,1.71637,2.64421,3.03762,3.46563,4.58755,5.46488
+0.0177828	227.53	41.9583	243.827	298.561	0.954443,1.25158,1.53512,1.78082,2.03351,3.02062,4.62664,5.3015,6.03605,7.93319,9.39957
+0.0316228	227.491	41.9888	248.942	305.095	1.68794,2.20971,2.70711,3.12982,3.57355,5.27529,8.00199,9.13057,10.3594,13.4624,15.8158
+0.0562341	227.424	42.0412	257.554	316.168	2.97278,3.8806,4.74339,5.48937,6.22545,9.09608,13.5834,15.4111,17.3485,22.2012,25.7608
+0.1	227.32	42.1289	271.54	334.349	5.19863,6.75359,8.22053,9.47425,10.6953,15.3697,22.4167,25.163,28.1291,35.202,40.1838
+0.177828	227.169	42.2711	293.077	362.863	8.98492,11.5821,13.9981,16.0023,17.9754,25.2087,35.6637,39.4906,43.6986,53.561,59.6353
+0.316228	226.99	42.4918	324.047	405.058	15.244,19.4223,23.2572,26.3933,29.2329,39.7681,54.3765,59.4263,64.7776,76.8504,86.2148
+0.562341	226.823	42.8728	365.459	463.996	25.1777,31.5782,37.4222,41.8091,45.9255,60.1053,79.2982,86.0129,92.8456,107.092,119.993
+1	226.76	43.6622	417.91	543.845	40.1838,49.5063,58.2988,63.7703,68.9471,87.6578,113.235,119.816,133.19,153.332,181.542
+1.77828	226.894	44.5413	487.089	657.841	62.7352,75.9171,87.1898,94.8564,100.681,126.993,172.628,199.49,309.181,323.515,750.174
+3.16228	227.955	44.903	1058.14	1222.25	95.7882,113.62,128.975,142.193,149.518,321.748,356.007,491.49,763.657,775.716,791.45
+5.62341	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2
+10	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2
+17.7828	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2
+31.6228	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2
+56.2341	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2
+100	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2	NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2,NoActionPotential_2

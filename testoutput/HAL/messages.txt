@@ -1,0 +1,12 @@
+Action potential prediction simulation recorded the following notes:
+ * At a concentration of 0.562341uM: possible alternans detected, APD90s = 1237.55, 811.559 ms
+ * At a concentration of 1uM: possible alternans detected, APD90s = 1307.01, 817.285 ms
+ * At a concentration of 1uM: possible alternans detected, APD90s = 1226.97, 785.277 ms
+ * At a concentration of 1.77828uM: possible alternans detected, APD90s = 1344.79, 757.131 ms
+ * At a concentration of 1.77828uM: possible alternans detected, APD90s = 746.52, 1216.98 ms
+ * At a concentration of 3.16228uM: possible alternans detected, APD90s = 1203.2, 854.715 ms
+ * At a concentration of 3.16228uM: possible alternans detected, APD90s = 1327.08, 823.763 ms
+ * At a concentration of 5.62341uM: possible alternans detected, APD90s = 1239.49, 913.129 ms
+ * At a concentration of 5.62341uM: possible alternans detected, APD90s = 1252.42, 788.309 ms
+ * At a concentration of 10uM: possible alternans detected, APD90s = 1323.03, 791.404 ms
+ * At a concentration of 10uM: possible alternans detected, APD90s = 1283.94, 824.054 ms

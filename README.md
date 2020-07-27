@@ -13,11 +13,11 @@ Processing and plotting the simulation data in this repository requires installa
 
 ## Generating the data
 
-The simulations in this paper use the [ApPredict](https://chaste.cs.ox.ac.uk/trac/wiki/ApPredict) tool. In order to facility reproducability we have published the exact version of the tool used to docker hub. In order to generate the data used in the paper, install [docker](http://docker.com/). If you are on windows you may have to set docker to use Linux containers. After installing docker run the following command:
+The simulations in this paper use the [ApPredict](https://chaste.cs.ox.ac.uk/trac/wiki/ApPredict) tool. In order to facility reproducibility we have published the exact version of the tool used to Docker Hub. In order to generate the data used in the paper, install [Docker](http://docker.com/). If you are on Windows you may have to set Docker to use Linux containers. After installing Docker run the following command:
 
 - `docker run -it cardiacmodelling/appredict-in-papers:brute_force_0.0.1 /bin/bash`
 
-The first time you run this, this will download the relevant docker iamge and it will log into a vritual environment where you can run the following commands: 
+The first time you run this, this will download the relevant Docker iamge and it will log into a virtual environment where you can run the following commands: 
 
 - `cd apps/ApPredict/`
 
@@ -25,7 +25,7 @@ We also recommend activating a screen session if using Linux as it may take many
 
 - `./ApPredict.sh --model 8 --pacing-freq 0.5 --pic50-herg 5.25 --pic50-spread-herg 0.139 --pic50-cal 4.57 --pic50-spread-cal 0.181 --pic50-iks 5.03 --pic50-spread-iks 0.127 --plasma-conc-high 100 --plasma-conc-count 19 --plasma-conc-logscale True --no-downsampling True --credible-intervals 60 70 80 90 95 --brute-force 1000 --output-dir HCQ &> testoutput/HCQ.txt &`
 
-which runs the simulation in detached mode and stores the data in `testoutput/HCQ/` and console output in `testoutput/HCQ.txt`. For a full list of the commands used to generate simulation data for all drugs and combinations see [commands](./commands). Once the data have been generated, inside the directory in which you wish to store the data (outside the docker container) run:
+which runs the simulation in detached mode and stores the data in `testoutput/HCQ/` and console output in `testoutput/HCQ.txt`. For a full list of the commands used to generate simulation data for all drugs and combinations see [commands](./commands). Once the data have been generated, inside the directory in which you wish to store the data (outside the Docker container) run:
 
 - `docker container list` and note the `CONTAINER ID`
 - `docker cp CONTAINER ID:/home/appredict/apps/ApPredict/testoutput .` 

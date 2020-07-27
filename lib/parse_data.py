@@ -173,6 +173,6 @@ def get_scores(drug_str):
 def drug_dictionary():
 
     drug_cmax = {'AZ': 1.937, 'CQ': 0.66, 'CQ_HIGH': 1.32, 'HAL': 0.57, 'HCQ': 1.22, 'HCQ_LOW': 0.61, 'HCQ_HIGH': 2.44, \
-    'MOX': 4.111, 'QUIN': 3.9567, 'HCQ_AZ': 1.22 , 'HCQ_HAL': 1.22, 'HCQ_MOX': 1.22, 'LOP_RIT': 0.704}
+    'MOX': 4.111, 'QND': 3.237, 'QUIN': 3.9567, 'HCQ_AZ': 1.22 , 'HCQ_HAL': 1.22, 'HCQ_MOX': 1.22, 'LOP_RIT': 0.704}
     
     return drug_cmax

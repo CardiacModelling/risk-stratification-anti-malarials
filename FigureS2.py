@@ -10,10 +10,11 @@ parser.add_argument("-t", "--thresholds", action='store_true', help="whether to 
                     default=False)
 args = parser.parse_args()
 
-drugs = ['AZ', 'MOX', 'LOP_RIT', 'CQ', 'HCQ', 'HCQ_AZ', 'HCQ_MOX', 'HAL', 'QUIN', 'HCQ_HAL', 'QND']
-drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroquine', 'hydroxychloroquine', 'hydroxychloroquine\n/azithromycin', \
-'hydroxychloroquine\n/moxifloxacin', 'halofantrine', 'quinine', 'hydroxychloroquine\n/halofantrine', 'quinidine']
-labels = ['Low', 'Intermediate', '', '', 'High', '', '', '', '', '', '']
+drugs = ['AZ', 'MOX', 'LOP_RIT', 'CQ', 'QUIN', 'HCQ', 'HCQ_AZ', 'HCQ_MOX', 'HAL', 'HCQ_HAL', 'QND']
+drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroquine', 'quinine', \
+'hydroxychloroquine', 'hydroxychloroquine\n/azithromycin', 'hydroxychloroquine\n/moxifloxacin', 'halofantrine', \
+'hydroxychloroquine\n/halofantrine', 'quinidine']
+labels = ['Low', 'Intermediate', '', '', '', 'High', '', '', '', '', '']
 
 fig = plt.figure()
 ax = fig.add_subplot(111)

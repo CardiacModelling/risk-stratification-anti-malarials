@@ -36,10 +36,10 @@ c_hhal = c_hhal / drug_cmax['HCQ_HAL']
 c_hmox = c_hmox / drug_cmax['HCQ_MOX']
 c_lrit = c_lrit / drug_cmax['LOP_RIT']
 
-drugs = ['AZ', 'MOX', 'LOP_RIT', 'CQ', 'HCQ', 'HCQ_AZ', 'HCQ_MOX', 'HAL', 'QUIN', 'HCQ_HAL']
-drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroquine', 'hydroxychloroquine', 'hydroxychloroquine\n/azithromycin', \
-'hydroxychloroquine\n/moxifloxacin', 'halofantrine', 'quinine', 'hydroxychloroquine\n/halofantrine']
-labels = ['Low', 'Intermediate', '', '', 'High', '', '', '', '', '']
+drugs = ['AZ', 'MOX', 'LOP_RIT', 'CQ', 'QUIN', 'HCQ', 'HCQ_AZ', 'HCQ_MOX', 'HAL', 'HCQ_HAL']
+drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroquine', 'quinine', 'hydroxychloroquine', \
+'hydroxychloroquine\n/azithromycin', 'hydroxychloroquine\n/moxifloxacin', 'halofantrine', 'hydroxychloroquine\n/halofantrine']
+labels = ['Low', 'Intermediate', '', '', '', 'High', '', '', '', '']
 
 cmap = plt.get_cmap("tab10")
 
@@ -50,7 +50,7 @@ ax = fig.add_subplot(grid[0, 0])
 ax.text(-0.18, 1, 'A', transform=ax.transAxes,
       fontsize=16, fontweight='bold', va='top', ha='right')
 ax.set_xlim([1e-2, 1e1])
-ax.set_ylim([-0.01, 0.09])
+ax.set_ylim([0.01, 0.09])
 plt.semilogx(c_az, qm_az, color=cmap(0), label='AZ')
 ax.fill_between(c_az, ql_az, qh_az, facecolor=cmap(0), edgecolor=None, alpha=0.2)
 plt.semilogx(c_cq, qm_cq, color=cmap(1), label='CQ')

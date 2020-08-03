@@ -32,14 +32,14 @@ This version of Chaste was compiled on:
 Mon, 15 Jun 2020 09:25:37 +0000 by Linux 7c48ad816ede 4.15.0-55-generic #60-Ubuntu SMP Tue Jul 2 18:22:20 UTC 2019 x86_64 (uname)
 from revision number 9c205f0 with build type GccOpt, shared libraries.
 
-# 34 arguments supplied.
+# 38 arguments supplied.
 * na IC50s = 23.9883  uM, Hills = 1.0 (default), Saturation level = 0% (default).
 * cal IC50s = 26.9153  uM, Hills = 1.0 (default), Saturation level = 0% (default).
 * herg IC50s = 5.12861  uM, Hills = 1.0 (default), Saturation level = 0% (default).
 * iks IC50s = 37.1535  uM, Hills = 1.0 (default), Saturation level = 0% (default).
 * ik1: no drug effect
 * ito IC50s = 79.4328  uM, Hills = 1.0 (default), Saturation level = 0% (default).
-* nal: no drug effect
+* nal IC50s = 10.9648  uM, Hills = 1.0 (default), Saturation level = 0% (default).
 * max free plasma concentration = 39.567 uM
 * min free plasma concentration = 0 uM
 * number of plasma concentrations = 7
@@ -63,12 +63,12 @@ g_herg factor = 0.999805
 g_iks factor = 0.999973
 g_ik1 factor = 1
 g_ito factor = 0.999987
-g_nal factor = 1
-First pace APD90 = 289.84
-Steady state detected after 54 paces.
-Last 2 AP duration(s) = 289.84,	289.811,	
-0.5Hz Upstroke velocity = 222.97, Peak mV = 41.931, APD50 = 236.928, APD90 = 289.811, percent change APD90 = 0.00133934
-qNet at 0.001uM = 0.0690078 C/F
+g_nal factor = 0.999909
+First pace APD90 = 289.835
+Steady state detected after 142 paces.
+Last 2 AP duration(s) = 289.835,	289.835,	
+0.5Hz Upstroke velocity = 227.594, Peak mV = 41.9175, APD50 = 236.958, APD90 = 289.835, percent change APD90 = 0.00969633
+qNet at 0.001uM = 0.0690128 C/F
 Drug Conc = 3.9567 uM
 g_na factor = 0.858411
 g_cal factor = 0.871836
@@ -76,12 +76,12 @@ g_herg factor = 0.564495
 g_iks factor = 0.903754
 g_ik1 factor = 1
 g_ito factor = 0.952552
-g_nal factor = 1
-First pace APD90 = 390.403
-Steady state detected after 782 paces.
-Last 2 AP duration(s) = 391.626,	391.626,	
-0.5Hz Upstroke velocity = 218.643, Peak mV = 40.966, APD50 = 316.249, APD90 = 391.626, percent change APD90 = 35.1335
-qNet at 3.9567uM = 0.0465963 C/F
+g_nal factor = 0.734832
+First pace APD90 = 368.853
+Steady state detected after 860 paces.
+Last 2 AP duration(s) = 371.789,	371.789,	
+0.5Hz Upstroke velocity = 219.042, Peak mV = 40.171, APD50 = 299.846, APD90 = 371.789, percent change APD90 = 28.2885
+qNet at 3.9567uM = 0.0614169 C/F
 Drug Conc = 7.9134 uM
 g_na factor = 0.751944
 g_cal factor = 0.772791
@@ -89,12 +89,12 @@ g_herg factor = 0.393238
 g_iks factor = 0.824408
 g_ik1 factor = 1
 g_ito factor = 0.909402
-g_nal factor = 1
-First pace APD90 = 459.227
-Steady state detected after 766 paces.
-Last 2 AP duration(s) = 460.329,	460.329,	
-0.5Hz Upstroke velocity = 196.764, Peak mV = 40.9038, APD50 = 367.799, APD90 = 460.329, percent change APD90 = 58.84
-qNet at 7.9134uM = 0.033819 C/F
+g_nal factor = 0.580818
+First pace APD90 = 420.929
+Steady state detected after 854 paces.
+Last 2 AP duration(s) = 423.502,	423.502,	
+0.5Hz Upstroke velocity = 197.942, Peak mV = 39.3642, APD50 = 338.26, APD90 = 423.502, percent change APD90 = 46.1325
+qNet at 7.9134uM = 0.059017 C/F
 Drug Conc = 11.8701 uM
 g_na factor = 0.668973
 g_cal factor = 0.693955
@@ -102,12 +102,12 @@ g_herg factor = 0.301706
 g_iks factor = 0.75787
 g_ik1 factor = 1
 g_ito factor = 0.869992
-g_nal factor = 1
-First pace APD90 = 512.703
-Steady state detected after 746 paces.
-Last 2 AP duration(s) = 513.664,	513.664,	
-0.5Hz Upstroke velocity = 166.312, Peak mV = 40.7177, APD50 = 407.94, APD90 = 513.664, percent change APD90 = 77.2434
-qNet at 11.8701uM = 0.0248131 C/F
+g_nal factor = 0.480177
+First pace APD90 = 460.083
+Steady state detected after 850 paces.
+Last 2 AP duration(s) = 462.43,	462.43,	
+0.5Hz Upstroke velocity = 166.466, Peak mV = 38.5387, APD50 = 367.586, APD90 = 462.43, percent change APD90 = 59.565
+qNet at 11.8701uM = 0.0577171 C/F
 Drug Conc = 15.8268 uM
 g_na factor = 0.602493
 g_cal factor = 0.629714
@@ -115,12 +115,12 @@ g_herg factor = 0.244739
 g_iks factor = 0.70127
 g_ik1 factor = 1
 g_ito factor = 0.833856
-g_nal factor = 1
-First pace APD90 = 556.959
-Steady state detected after 738 paces.
-Last 2 AP duration(s) = 557.837,	557.837,	
-0.5Hz Upstroke velocity = 159.223, Peak mV = 40.4745, APD50 = 441.738, APD90 = 557.837, percent change APD90 = 92.4857
-qNet at 15.8268uM = 0.0177535 C/F
+g_nal factor = 0.409262
+First pace APD90 = 492.16
+Steady state detected after 836 paces.
+Last 2 AP duration(s) = 494.364,	494.364,	
+0.5Hz Upstroke velocity = 160.19, Peak mV = 37.7229, APD50 = 392.297, APD90 = 494.364, percent change APD90 = 70.584
+qNet at 15.8268uM = 0.0566891 C/F
 Drug Conc = 39.567 uM
 g_na factor = 0.37744
 g_cal factor = 0.40485
@@ -128,12 +128,12 @@ g_herg factor = 0.114745
 g_iks factor = 0.484271
 g_ik1 factor = 1
 g_ito factor = 0.667504
-g_nal factor = 1
-First pace APD90 = 726.209
-Steady state detected after 870 paces.
-Last 2 AP duration(s) = 732.512,	732.511,	
-0.5Hz Upstroke velocity = 89.3614, Peak mV = 38.8934, APD50 = 584.935, APD90 = 732.511, percent change APD90 = 152.758
-qNet at 39.567uM = -0.0089282 C/F
+g_nal factor = 0.216988
+First pace APD90 = 609.956
+Steady state detected after 1028 paces.
+Last 2 AP duration(s) = 625.119,	625.119,	
+0.5Hz Upstroke velocity = 88.9667, Peak mV = 33.3686, APD50 = 503.553, APD90 = 625.119, percent change APD90 = 115.702
+qNet at 39.567uM = 0.0508262 C/F
 Chaste warning: in file projects/ApPredict/src/single_cell/ApPredictMethods.cpp at line 1662: ohara_rudy_cipa_v1_2017 does not have 'membrane_fast_transient_outward_current_conductance' labelled, please tag it in the CellML file if it is present.
 Chaste warning: in file projects/ApPredict/src/single_cell/ApPredictMethods.cpp at line 1671: ohara_rudy_cipa_v1_2017 does not have 'membrane_fast_transient_outward_current_conductance' labelled, using combined Ito (fast and slow) instead...
 Chaste warning: in file heart/src/odes/single_cell/AbstractSteadyStateRunner.cpp at line 72: Model ohara_rudy_cipa_v1_2017 did not reach steady state within 96 paces.

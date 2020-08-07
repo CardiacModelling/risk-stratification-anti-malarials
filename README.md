@@ -17,7 +17,7 @@ The simulations in this paper use the [ApPredict](https://chaste.cs.ox.ac.uk/tra
 
 - `docker run -it cardiacmodelling/appredict-in-papers:brute_force_0.0.1 /bin/bash`
 
-The first time you run this, this will download the relevant Docker iamge and it will log into a virtual environment where you can run the following commands: 
+The first time you run this, this will download the relevant Docker image and it will log into a virtual environment where you can run the following commands: 
 
 - `cd apps/ApPredict/`
 
@@ -38,7 +38,7 @@ In order to generate Figure 1 from the paper, simply type:
 
 - `python Figure1.py` (or `python3 Figure1.py` if you have both python 2 and 3 installed).
 - Figures 2 and supplementary Figures S1 and S2 can be rendered using the same command (i.e. `python Figure2.py`, `python FigureS1.py` and `python FigureS2.py`).
-- Pre-generated and saved figures used in the paper can be found in [figures/](./figures).
+- Pre-generated and saved figures used in the paper can be found in [Figures/](./Figures).
 
 ## Acknowledging this work
 

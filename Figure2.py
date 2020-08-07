@@ -6,7 +6,7 @@ import argparse
 from lib.parse_data import get_scores, parse, drug_dictionary
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-t", "--thresholds", action='store_true', help="whether to use ONS England data or not",
+parser.add_argument("-p", "--plot", action='store_true', help="whether to plot figure or not",
                     default=False)
 args = parser.parse_args()
 
@@ -43,7 +43,10 @@ labels = ['Low', 'Intermediate', '', '', '', 'High', '', '', '', '']
 
 cmap = plt.get_cmap("tab10")
 
-fig = plt.figure(figsize=(8, 6), constrained_layout=True)
+if args.plot:
+      fig = plt.figure(figsize=(8, 6), constrained_layout=True)
+else:
+      fig = plt.figure(figsize=(8, 6), constrained_layout=True, dpi=300)
 grid = plt.GridSpec(2, 2, figure=fig)
 
 ax = fig.add_subplot(grid[0, 0])
@@ -119,4 +122,7 @@ ax3.set_yticklabels([drug_labels[9], drug_labels[8], drug_labels[7], drug_labels
   drug_labels[1], drug_labels[0]])
 plt.grid(True)
 
-plt.show()
+if args.plot:
+      plt.show()
+else:
+      plt.savefig('Figures/Figure2.pdf')

@@ -2,8 +2,14 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 from pylab import Rectangle
+import argparse
 
 from lib.parse_data import parse, parse_APD, drug_dictionary
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-p", "--plot", action='store_true', help="whether to plot figure or not",
+                    default=False)
+args = parser.parse_args()
 
 drug_cmax = drug_dictionary()
 
@@ -97,7 +103,10 @@ v_qnn2 = qnn_ap2[1]
 
 cmap = plt.get_cmap("tab10")
 
-fig = plt.figure(figsize=(11, 7.5), constrained_layout=True)
+if args.plot:
+      fig = plt.figure(figsize=(11, 7.5), constrained_layout=True)
+else:
+      fig = plt.figure(figsize=(11, 7.5), constrained_layout=True, dpi=300)
 grid = plt.GridSpec(4, 3, figure=fig)
 
 ax1 = plt.subplot(grid[0, 0])
@@ -146,7 +155,8 @@ ax2.spines['left'].set_visible(False)
 ax2.spines['right'].set_visible(False)
 ax2.spines['top'].set_visible(False)
 autoAxis = ax2.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='red', linestyle='dashed')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1,(autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='red', linestyle='dashed')
 rec = ax2.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -170,7 +180,8 @@ ax3.spines['left'].set_visible(False)
 ax3.spines['right'].set_visible(False)
 ax3.spines['top'].set_visible(False)
 autoAxis = ax3.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='magenta', linestyle='dotted')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1,(autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='magenta', linestyle='dotted')
 rec = ax3.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -211,7 +222,8 @@ ax5.spines['left'].set_visible(False)
 ax5.spines['right'].set_visible(False)
 ax5.spines['top'].set_visible(False)
 autoAxis = ax5.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='red', linestyle='dashed')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1, (autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='red', linestyle='dashed')
 rec = ax5.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -232,7 +244,8 @@ ax6.spines['left'].set_visible(False)
 ax6.spines['right'].set_visible(False)
 ax6.spines['top'].set_visible(False)
 autoAxis = ax6.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='magenta', linestyle='dotted')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1, (autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='magenta', linestyle='dotted')
 rec = ax6.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -273,7 +286,8 @@ ax8.spines['left'].set_visible(False)
 ax8.spines['right'].set_visible(False)
 ax8.spines['top'].set_visible(False)
 autoAxis = ax8.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='red', linestyle='dashed')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1, (autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='red', linestyle='dashed')
 rec = ax8.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -294,7 +308,8 @@ ax9.spines['left'].set_visible(False)
 ax9.spines['right'].set_visible(False)
 ax9.spines['top'].set_visible(False)
 autoAxis = ax9.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='magenta', linestyle='dotted')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1, (autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='magenta', linestyle='dotted')
 rec = ax9.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -337,7 +352,8 @@ ax11.spines['left'].set_visible(False)
 ax11.spines['right'].set_visible(False)
 ax11.spines['top'].set_visible(False)
 autoAxis = ax11.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='red', linestyle='dashed')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1, (autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='red', linestyle='dashed')
 rec = ax11.add_patch(rec)
 rec.set_clip_on(False)
 
@@ -359,8 +375,12 @@ ax12.spines['left'].set_visible(False)
 ax12.spines['right'].set_visible(False)
 ax12.spines['top'].set_visible(False)
 autoAxis = ax12.axis()
-rec = Rectangle((autoAxis[0]-0.7,autoAxis[2]-0.2),(autoAxis[1]-autoAxis[0])+1,(autoAxis[3]-autoAxis[2])+0.4, fill=False, lw=1.5, color='magenta', linestyle='dotted')
+rec = Rectangle((autoAxis[0] - 0.7, autoAxis[2] - 0.2), (autoAxis[1] - autoAxis[0]) + 1, (autoAxis[3] - autoAxis[2]) + 0.4, fill=False, \
+      lw=1.5, color='magenta', linestyle='dotted')
 rec = ax12.add_patch(rec)
 rec.set_clip_on(False)
 
-plt.show()
+if args.plot:
+      plt.show()
+else:
+      plt.savefig('Figures/Figure1.pdf')

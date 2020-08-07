@@ -6,7 +6,7 @@ import argparse
 from lib.parse_data import get_scores, parse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-t", "--thresholds", action='store_true', help="whether to use ONS England data or not",
+parser.add_argument("-p", "--plot", action='store_true', help="whether to plot figure or not",
                     default=False)
 args = parser.parse_args()
 
@@ -16,7 +16,10 @@ drug_labels = ['azithromycin', 'moxifloxacin', 'lopinavir\n/ritonavir', 'chloroq
 'hydroxychloroquine\n/halofantrine', 'quinidine']
 labels = ['Low', 'Intermediate', '', '', '', 'High', '', '', '', '', '']
 
-fig = plt.figure()
+if args.plot:
+      fig = plt.figure()
+else:
+      fig = plt.figure(dpi=300)
 ax = fig.add_subplot(111)
 for i, j in enumerate(drugs):
 
@@ -48,4 +51,8 @@ ax.set_yticklabels([drug_labels[10], drug_labels[9], drug_labels[8], drug_labels
     drug_labels[2], drug_labels[1], drug_labels[0]])
 plt.grid(True)
 plt.tight_layout()
-plt.show()
+
+if args.plot:
+      plt.show()
+else:
+      plt.savefig('Figures/FigureS2.pdf')

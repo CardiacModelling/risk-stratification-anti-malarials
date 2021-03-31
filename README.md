@@ -42,8 +42,9 @@ In order to generate Figure 1 from the paper, simply type:
 
 ## Acknowledging this work
 
-If you publish any work based on the contents of this repository please cite:
+If you publish any work based on the contents of this repository please cite ([CITATION file](CITATION)):
 
-<!-- Whittaker, D. G., Capel, R. A., Hendrix, M., Chan, X. H. S., Herring, S., White, N. J., Mirams, G. R., Burton, R. A. B. -->
-<!-- Cardiac TdP Risk Stratification Modelling of Anti-Malarial Compounds including Chloroquine and Hydroxychloroquine. -->
-[PLACEHOLDER]
+Whittaker, D. G., Capel, R. A., Hendrix, M., Chan, X. H. S., Herring, N., White, N. J., Mirams, G. R., Burton, R. A. B.
+(2021).
+Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine.
+Royal Society Open Science.

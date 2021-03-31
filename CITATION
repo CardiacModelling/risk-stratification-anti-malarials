@@ -1,0 +1,15 @@
+To cite this paper in publications, please use:
+
+Whittaker, D. G., Capel, R. A., Hendrix, M., Chan, X. H. S., Herring, N., White, N. J., Mirams, G. R., Burton, R. A. B.
+(2021).
+Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine.
+Royal Society Open Science.
+
+A BibTeX entry for LaTeX users is
+
+@article{Whittaker2021Cardiac,
+  author = {Whittaker, Dominic G.  and Capel, Rebecca A.  and Hendrix, Maurice  and Chan, Xin-Hui S.  and Herring, Neil  and White, Nick J.  and Mirams, Gary R.  and Burton, Rebecca A. B. },
+  title = {Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine},
+  journal = {Royal Society Open Science},
+  year = {2021},
+}

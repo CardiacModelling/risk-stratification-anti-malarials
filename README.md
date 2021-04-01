@@ -1,4 +1,4 @@
-# Cardiac TdP Risk Stratification Modelling of Anti-Malarial Compounds including Chloroquine and Hydroxychloroquine
+# Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine
 
 Dominic G. Whittaker, Rebecca A. Capel, Maurice Hendrix, Xin Hui S. Chan, Neil Herring, Nicholas J. White, Gary R. Mirams, Rebecca-Ann B. Burton.
 

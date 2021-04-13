@@ -46,5 +46,5 @@ If you publish any work based on the contents of this repository please cite ([C
 
 Whittaker, D. G., Capel, R. A., Hendrix, M., Chan, X. H. S., Herring, N., White, N. J., Mirams, G. R., Burton, R. A. B.
 (2021).
-Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine.
-Royal Society Open Science.
+[Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine](https://royalsocietypublishing.org/doi/10.1098/rsos.210235).
+_Royal Society Open Science_, **8**: 210235.

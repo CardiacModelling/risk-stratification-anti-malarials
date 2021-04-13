@@ -3,7 +3,7 @@ To cite this paper in publications, please use:
 Whittaker, D. G., Capel, R. A., Hendrix, M., Chan, X. H. S., Herring, N., White, N. J., Mirams, G. R., Burton, R. A. B.
 (2021).
 Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine.
-Royal Society Open Science.
+Royal Society Open Science 8: 210235. doi:10.1098/rsos.210235
 
 A BibTeX entry for LaTeX users is
 
@@ -12,4 +12,7 @@ A BibTeX entry for LaTeX users is
   title = {Cardiac TdP Risk Stratification Modelling of Anti-Infective Compounds including Chloroquine and Hydroxychloroquine},
   journal = {Royal Society Open Science},
   year = {2021},
+  doi = {10.1098/rsos.210235},
+  volume = {8},
+  pages = {210235}
 }
